@@ -1,17 +1,35 @@
 {
-  "name": "@uniswap/org",
+  "name": "@valueswap/protocol",
   "private": true,
-  "description": "Uniswap homepage and knowledgebase",
-  "version": "0.1.0",
-  "author": "Callil Capuozzo <callil.capuozzo@gmail.com>",
+  "version": "1.0.0",
+  "description": "Valueswap homepage and knowledgebase",
+  "author": "Value Network",
+  "license": "GPL-3.0-or-later",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/valuenetworklive2021/valueswap-protocol"
+  },
+  "scripts": {
+    "develop": "gatsby develop",
+    "dev": "gatsby develop",
+    "devlocal": "gatsby develop -H 0.0.0.0",
+    "start": "gatsby develop",
+    "build": "gatsby build && yarn post-build",
+    "post-build": "cp ./node_modules/@valueswap/token-lists/src/tokenlist.schema.json public/",
+    "serve": "gatsby serve",
+    "clean": "gatsby clean",
+    "format": "prettier --write \"src/**/*.{js,jsx,md,mdx}\"",
+    "deploy": "gatsby-plugin-s3 deploy --yes"
+  },
   "engines": {
-    "node": "12.x"
+    "node": ">=12.x"
   },
   "dependencies": {
     "@apollo/react-hooks": "^3.1.3",
     "@mdx-js/mdx": "^1.5.5",
     "@mdx-js/react": "^1.5.5",
     "@react-hook/media-query": "^1.0.1",
+    "@valueswap/token-lists": "^1.0.1",
     "algoliasearch": "^4.3.0",
     "apollo-boost": "^0.4.7",
     "apollo-cache-inmemory": "^1.6.6",
@@ -78,7 +96,6 @@
     "styled-components": "^5.0.1"
   },
   "devDependencies": {
-    "@uniswap/token-lists": "^1.0.0-beta.19",
     "babel-eslint": "^10.1.0",
     "eslint": "^6.8.0",
     "eslint-loader": "^3.0.3",
@@ -89,28 +106,5 @@
     "gatsby-plugin-replace-path": "^1.0.0",
     "gatsby-plugin-s3": "^0.3.4",
     "prettier": "^1.19.1"
-  },
-  "keywords": [
-    "gatsby"
-  ],
-  "license": "GPL-3.0-or-later",
-  "scripts": {
-    "develop": "gatsby develop",
-    "dev": "gatsby develop",
-    "devlocal": "gatsby develop -H 0.0.0.0",
-    "start": "gatsby develop",
-    "build": "gatsby build && yarn post-build",
-    "post-build": "cp ./node_modules/@uniswap/token-lists/src/tokenlist.schema.json public/",
-    "serve": "gatsby serve",
-    "clean": "gatsby clean",
-    "format": "prettier --write \"src/**/*.{js,jsx,md,mdx}\"",
-    "deploy": "gatsby-plugin-s3 deploy"
-  },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/Uniswap/uniswap-org"
-  },
-  "bugs": {
-    "url": "https://github.com/Uniswap/uniswap-org/issues"
   }
 }

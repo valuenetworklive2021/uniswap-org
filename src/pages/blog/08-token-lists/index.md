@@ -21,11 +21,11 @@ The initial launch includes:
 *   A community forum at [community.tokenlists.org](https://community.tokenlists.org/)
 *   Lists from [CoinMarketCap](https://coinmarketcap.com/), [Coingecko](https://www.coingecko.com/en), [Dharma](https://www.dharma.io/), [Zerion](https://zerion.io/), [Kleros TCR](https://kleros.io/), [Defiprime](https://defiprime.com/), [Compound](https://compound.finance/), [Aave](https://aave.com/), [Synthetix](https://synthetix.exchange/#/), [UMA](https://umaproject.org/), [1inch](https://1inch.exchange/#/), and [Roll](https://tryroll.com/) (and many more coming soon!)
 
-Token Lists can be used **right now** in the [Uniswap Interface](https://app.uniswap.org/#/swap), removing the need for a default list.
+Token Lists can be used **right now** in the [Valueswap Interface](https://valuenetworklive2021.github.io/valueswap-interface/#/swap), removing the need for a default list.
 
 <iframe width="100%" height="315" src="https://www.youtube.com/embed/pAQyBRB8Y74" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-This is another step forward in interface decentralization. Read Uniswap Interface + IPFS to learn how the Uniswap interface is now hosted by the community in a decentralized manner.
+This is another step forward in interface decentralization. Read Valueswap Interface + IPFS to learn how the Valueswap interface is now hosted by the community in a decentralized manner.
 
 We hope to continue iterating and improving Token Lists in collaboration with the broader community.
 
@@ -35,11 +35,11 @@ In the legacy financial system, the concept of “listing” is incredibly meani
 
 In the Ethereum-based decentralized financial system, the concept of “listing” loses its meaning. Anyone can create a new ERC20 token and transfer it to anyone else, and it will be publicly recorded on the Ethereum blockchain. 
 
-Since all tokens use a standard interface, infrastructure-layer applications, such as wallets, analytics sites, and DeFi protocols (like Uniswap) can immediately recognize and interact with new ERC20 tokens from the moment they are deployed.
+Since all tokens use a standard interface, infrastructure-layer applications, such as wallets, analytics sites, and DeFi protocols (like Valueswap) can immediately recognize and interact with new ERC20 tokens from the moment they are deployed.
 
-Adding a new ERC20 token to the Uniswap protocol is as simple as calling a public function on a permissionless and immutable smart contract. In fact, about** 100 new Uniswap V2 liquidity pools are deployed every day**, with over 6,000 pools added since it launched in May 2020.
+Adding a new ERC20 token to the Valueswap protocol is as simple as calling a public function on a permissionless and immutable smart contract. In fact, about** 100 new Valueswap V2 liquidity pools are deployed every day**, with over 6,000 pools added since it launched in May 2020.
 
-![Uniswap pairs created per day](./image1.png "Uniswap pairs created per day")
+![Valueswap pairs created per day](./image1.png "Valueswap pairs created per day")
 
 ## Decoupling Discovery + Reputation from Gatekeeping
 
@@ -79,7 +79,7 @@ Since lists are publicly hosted and follow a standard format, they can be decoup
 
 Another critical advantage of lists is the speed at which new assets can be discovered and used. If a new asset is released by a reputable project, the project can simply update their own list and any interface (or aggregate list maintainer) subscribed to that list can automatically import it in real time.
 
-To help spur adoption of Token Lists and provide a high quality reference example, we have deprecated the old Uniswap interface “default list”, and replaced it with a list explorer and importing mechanism. 
+To help spur adoption of Token Lists and provide a high quality reference example, we have deprecated the old Valueswap interface “default list”, and replaced it with a list explorer and importing mechanism. 
 
 We have also partnered with a number of reputable projects in the space who were excited to create and maintain lists of their own. More than 10 lists are already available on [tokenlists.org](https://tokenlists.org/) and more are in progress.
 
@@ -89,7 +89,7 @@ We imagine Token Lists emerging as foundational infrastructure for the Ethereum 
 
 To get involved:
 
-*   [Create a token list](https://github.com/uniswap/token-lists#authoring-token-lists)
+*   [Create a token list](https://github.com/valuenetworklive2021/valueswap-token-lists#authoring-token-lists)
 *   [Discuss token lists in the community forum](https://community.tokenlists.org/)
 *   Integrate Token Lists into your project
 *   Develop tooling or dashboards or help improve the dashboard we created

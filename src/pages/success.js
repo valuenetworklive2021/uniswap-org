@@ -74,7 +74,7 @@ const StyledCardBG = styled(Img)`
 const Success = props => {
   const data = useStaticQuery(graphql`
     {
-      unicornImage: file(relativePath: { eq: "uni_image.jpg" }) {
+      unicornImage: file(relativePath: { eq: "vntw_image.jpg" }) {
         childImageSharp {
           fluid(maxWidth: 1200) {
             ...GatsbyImageSharpFluid_noBase64
@@ -94,7 +94,7 @@ const Success = props => {
           <Title style={{ width: '100%' }}>You are now subscribed.</Title>
           <p>
             {"We'll be in touch soon. You can always unsubscribe"}
-            <a href="https://uniswap.us19.list-manage.com/unsubscribe?u=c93471c1443f1e6365b5ca093&id=7d591bff13">
+            <a href="#">
               {' here.'}
             </a>
           </p>

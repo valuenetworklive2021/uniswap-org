@@ -3634,17 +3634,17 @@
     semver "^7.3.2"
     tsutils "^3.17.1"
 
-"@uniswap/token-lists@^1.0.0-beta.19":
-  version "1.0.0-beta.19"
-  resolved "https://registry.yarnpkg.com/@uniswap/token-lists/-/token-lists-1.0.0-beta.19.tgz#5256db144fba721a6233f43b92ffb388cbd58327"
-  integrity sha512-19V3KM7DAe40blWW1ApiaSYwqbq0JTKMO3yChGBrXzQBl+BoQZRTNZ4waCyoZ5QM45Q0Mxd6bCn6jXcH9G1kjg==
-
 "@urql/core@^1.11.0":
   version "1.11.8"
   resolved "https://registry.yarnpkg.com/@urql/core/-/core-1.11.8.tgz#6a3186ac84d6b08752585f42e8ec81539338d7a9"
   integrity sha512-lBlCjw3sLlblGIzRVg583IdsONUIt04f/LHI0oiEgNlPViZcRR3B31LCKyOChba/klIqSaDivaqCfzg5wyTPoQ==
   dependencies:
     wonka "^4.0.10"
+
+"@valueswap/token-lists@^1.0.0":
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/@valueswap/token-lists/-/token-lists-1.0.0.tgz#36e65c6f7ffa9851495f289b902cfe92ff316d54"
+  integrity sha512-K6sMHDnQbnE1Dej2YcW63FAvB0Nkt5ly9JlaX9GU3QwYfq3PcVii6DTTMaZiQa9ffeD/BsEqDx+RaefzPj0bNQ==
 
 "@webassemblyjs/ast@1.9.0":
   version "1.9.0"

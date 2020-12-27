@@ -29,7 +29,7 @@ const Footer = () => {
   return (
     <StyledFooter>
       This site is a work in progress.{' '}
-      <a href="https://github.com/Uniswap/uniswap-org/issues">
+      <a href="https://github.com/valuenetworklive2021/valueswap-protocol/issues">
         <u>Found an issue?</u>
       </a>
     </StyledFooter>

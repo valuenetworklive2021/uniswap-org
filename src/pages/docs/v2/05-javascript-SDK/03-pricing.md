@@ -5,11 +5,11 @@ tags: SDK, developer-guides, documentation
 
 Looking for a <Link to='/docs/v2/javascript-SDK/quick-start'>quickstart</Link>?
 
-Let's talk pricing. This guide will focus on the two most important Uniswap prices: the **mid price** and the **execution price**.
+Let's talk pricing. This guide will focus on the two most important Valueswap prices: the **mid price** and the **execution price**.
 
 # Mid Price
 
-The mid price, in the context of Uniswap, is the price that reflects the _ratio of reserves in one or more pairs_. There are three ways we can think about this price. Perhaps most simply, it defines the relative value of one token in terms of the other. It also represents the price at which you could theoretically trade an infinitesimal amount (ε) of one token for the other. Finally, it can be interpreted as the current _market-clearing or fair value price_ of the assets.
+The mid price, in the context of Valueswap, is the price that reflects the _ratio of reserves in one or more pairs_. There are three ways we can think about this price. Perhaps most simply, it defines the relative value of one token in terms of the other. It also represents the price at which you could theoretically trade an infinitesimal amount (ε) of one token for the other. Finally, it can be interpreted as the current _market-clearing or fair value price_ of the assets.
 
 Let's consider the mid price for DAI-WETH (that is, the amount of DAI per 1 WETH).
 
@@ -18,7 +18,7 @@ Let's consider the mid price for DAI-WETH (that is, the amount of DAI per 1 WETH
 The simplest way to get the DAI-WETH mid price is to observe the pair directly:
 
 ```typescript
-import { ChainId, Token, WETH, Fetcher, Route } from '@uniswap/sdk'
+import { ChainId, Token, WETH, Fetcher, Route } from '@valueswap/sdk'
 
 const DAI = new Token(ChainId.MAINNET, '0x6B175474E89094C44Da98b954EedeAC495271d0F', 18)
 
@@ -43,7 +43,7 @@ Finally, you may have noticed that we're formatting the price to 6 significant d
 For the sake of example, let's imagine a direct pair between DAI and WETH _doesn't exist_. In order to get a DAI-WETH mid price we'll need to pick a valid route. Imagine both DAI and WETH have pairs with a third token, USDC. In that case, we can calculate an indirect mid price through the USDC pairs: 
 
 ```typescript
-import { ChainId, Token, WETH, Fetcher, Route } from '@uniswap/sdk'
+import { ChainId, Token, WETH, Fetcher, Route } from '@valueswap/sdk'
 
 const USDC = new Token(ChainId.MAINNET, '0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48', 6)
 const DAI = new Token(ChainId.MAINNET, '0x6B175474E89094C44Da98b954EedeAC495271d0F', 18)
@@ -66,7 +66,7 @@ Mid prices are great representations of the _current_ state of a route, but what
 Imagine we're interested in trading 1 WETH for DAI:
 
 ```typescript
-import { ChainId, Token, WETH, Fetcher, Trade, Route, TokenAmount, TradeType } from '@uniswap/sdk'
+import { ChainId, Token, WETH, Fetcher, Trade, Route, TokenAmount, TradeType } from '@valueswap/sdk'
 
 const DAI = new Token(ChainId.MAINNET, '0x6B175474E89094C44Da98b954EedeAC495271d0F', 18)
 

@@ -4,7 +4,7 @@ import { Link } from 'gatsby'
 import PropTypes from 'prop-types'
 import styled from 'styled-components'
 import Search from './algoliaSearch'
-import Uni from '../images/uni.inline.svg'
+import VNTW from '../images/vntw.inline.svg'
 import { Sun, Moon, Home } from 'react-feather'
 
 import MenuIcon from '../images/menu.inline.svg'
@@ -111,7 +111,7 @@ const StyledHomeLink = styled(Link)`
   align-items: center;
 `
 
-const StyledUni = styled(Uni)`
+const StyledVntw = styled(VNTW)`
   path {
     fill: ${({ theme }) => theme.colors.link};
   }
@@ -217,12 +217,12 @@ const Header = props => {
               textDecoration: `none`
             }}
           >
-            <StyledUni />
+            <StyledVntw />
           </StyledHomeLink>
           {props.path && props.path !== '/' && props.path !== '' && (
             <>
               <StyledNavTitle to={'/' + props.path.split('/')[1]}>
-                {props.path.length > 20 ? 'Docs /' : 'Uniswap Docs /'}
+                {props.path.length > 20 ? 'Docs /' : 'Valueswap Docs /'}
               </StyledNavTitle>
               <StyledNavTitle to={'/docs/' + props.path.split('/')[2]}>
                 {props.path.split('/')[2].replace(/(^|\s)\S/g, function(t) {
@@ -263,7 +263,7 @@ const Header = props => {
             </a>
           </StyledButton>
           <StyledButton fill>
-            <a href="https://github.com/Uniswap">
+            <a href="https://github.com/valuenetworklive2021">
               <Github width={20} />
             </a>
           </StyledButton>

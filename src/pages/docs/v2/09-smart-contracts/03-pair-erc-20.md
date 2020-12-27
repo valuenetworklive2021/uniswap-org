@@ -3,11 +3,11 @@ title: Pair (ERC-20)
 tags: smart-contracts, documentation
 ---
 
-This documentation covers ERC-20 functionality for denominating pool tokens. For Uniswap-specific functionality, see <Link to='/docs/v2/smart-contracts/pair'>Pair</Link>.
+This documentation covers ERC-20 functionality for denominating pool tokens. For Valueswap-specific functionality, see <Link to='/docs/v2/smart-contracts/pair'>Pair</Link>.
 
 # Code
 
-[`UniswapV2ERC20.sol`](https://github.com/Uniswap/uniswap-v2-core/blob/master/contracts/UniswapV2ERC20.sol)
+[`ValueswapV2ERC20.sol`](https://github.com/valuenetworklive2021/valueswap-v2-core/blob/master/contracts/ValueswapV2ERC20.sol)
 
 # Events
 
@@ -35,7 +35,7 @@ Emitted each time a transfer occurs via [transfer](#transfer-1), [transferFrom](
 function name() external pure returns (string memory);
 ```
 
-Returns `Uniswap V2` for all pairs.
+Returns `Valueswap V2` for all pairs.
 
 ## symbol
 
@@ -43,7 +43,7 @@ Returns `Uniswap V2` for all pairs.
 function symbol() external pure returns (string memory);
 ```
 
-Returns `UNI-V2` for all pairs.
+Returns `VNTW-V2` for all pairs.
 
 ## decimals
 
@@ -148,13 +148,13 @@ Sets the allowance for a spender where approval is granted via a signature.
 # Interface
 
 ```solidity
-import '@uniswap/v2-core/contracts/interfaces/IUniswapV2ERC20.sol';
+import '@valueswap/v2-core/contracts/interfaces/IValueswapV2ERC20.sol';
 ```
 
 ```solidity
 pragma solidity >=0.5.0;
 
-interface IUniswapV2ERC20 {
+interface IValueswapV2ERC20 {
   event Approval(address indexed owner, address indexed spender, uint value);
   event Transfer(address indexed from, address indexed to, uint value);
 
@@ -180,7 +180,7 @@ interface IUniswapV2ERC20 {
 # ABI
 
 ```typescript
-import IUniswapV2ERC20 from '@uniswap/v2-core/build/IUniswapV2ERC20.json'
+import IValueswapV2ERC20 from '@valueswap/v2-core/build/IValueswapV2ERC20.json'
 ```
 
-[https://unpkg.com/@uniswap/v2-core@1.0.0/build/IUniswapV2ERC20.json](https://unpkg.com/@uniswap/v2-core@1.0.0/build/IUniswapV2ERC20.json)
+[https://unpkg.com/@valueswap/v2-core@1.0.2/build/IValueswapV2ERC20.json](https://unpkg.com/@valueswap/v2-core@1.0.2/build/IValueswapV2ERC20.json)

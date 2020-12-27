@@ -5,16 +5,16 @@ tags: SDK, developer-guides, documentation
 
 Looking for a <Link to='/docs/v2/javascript-SDK/quick-start'>quickstart</Link>?
 
-The SDK _cannot execute trades or send transactions on your behalf_. Rather, it offers utility classes and functions which make it easy to calculate the data required to safely interact with Uniswap. Nearly everything you need to safely transact with Uniswap is provided by the <Link to='/docs/v2/SDK/trade'>Trade</Link> entity. However, it is your responsibility to use this data to send transactions in whatever context makes sense for your application.
+The SDK _cannot execute trades or send transactions on your behalf_. Rather, it offers utility classes and functions which make it easy to calculate the data required to safely interact with Valueswap. Nearly everything you need to safely transact with Valueswap is provided by the <Link to='/docs/v2/SDK/trade'>Trade</Link> entity. However, it is your responsibility to use this data to send transactions in whatever context makes sense for your application.
 
-This guide will focus exclusively on sending a transaction to the <Link to='/docs/v2/smart-contracts/router02'>currently recommended Uniswap router</Link>.
+This guide will focus exclusively on sending a transaction to the <Link to='/docs/v2/smart-contracts/router02'>currently recommended Valueswap router</Link>.
 
 # Sending a Transaction to the Router
 
 Let's say we want to trade 1 WETH for as much DAI as possible:
 
 ```typescript
-import { ChainId, Token, WETH, Fetcher, Trade, Route, TokenAmount, TradeType } from '@uniswap/sdk'
+import { ChainId, Token, WETH, Fetcher, Trade, Route, TokenAmount, TradeType } from '@valueswap/sdk'
 
 const DAI = new Token(ChainId.MAINNET, '0x6B175474E89094C44Da98b954EedeAC495271d0F', 18)
 
@@ -31,7 +31,7 @@ const trade = new Trade(route, new TokenAmount(WETH[DAI.chainId], amountIn), Tra
 
 So, we've constructed a trade entity, but how do we use it to actually send a transaction? There are still a few pieces we need to put in place.
 
-Before going on, we should explore how ETH works in the context of trading. Internally, the SDK uses WETH, as all Uniswap V2 pairs use WETH under the hood. However, it's perfectly possible for you as an end user to use ETH, and rely on the router to handle converting to/from WETH. So, let's use ETH.
+Before going on, we should explore how ETH works in the context of trading. Internally, the SDK uses WETH, as all Valueswap V2 pairs use WETH under the hood. However, it's perfectly possible for you as an end user to use ETH, and rely on the router to handle converting to/from WETH. So, let's use ETH.
 
 The first step is selecting the appropriate router function. The names of router functions are intended to be self-explanatory; in this case we want <Link to='/docs/v2/smart-contracts/router02/#swapexactethfortokens'>swapExactETHForTokens</Link>, because we're...swapping an exact amount of ETH for tokens.
 
@@ -47,7 +47,7 @@ function swapExactETHForTokens(uint amountOutMin, address[] calldata path, addre
 Jumping back to our trading code, we can construct all the necessary parameters:
 
 ```typescript
-import { Percent } from '@uniswap/sdk'
+import { Percent } from '@valueswap/sdk'
 
 const slippageTolerance = new Percent('50', '10000') // 50 bips, or 0.50%
 

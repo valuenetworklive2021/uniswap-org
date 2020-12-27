@@ -5,55 +5,55 @@ tags: smart-contracts, documentation
 
 # Code
 
-[`governance`](https://github.com/Uniswap/governance)
+[`governance`](https://github.com/valuenetworklive2021/valueswap-governance)
 
 # Documentation
 
-For reference material on the Uniswap Governance system please see [Governance Reference](https://uniswap.org/docs/v2/governance/governance-reference).
+For reference material on the Valueswap Governance system please see [Governance Reference](https://valuenetworklive2021.github.io/valueswap-protocol/docs/v2/governance/governance-reference).
 
-# UNI Address
+# VNTW Address
 
-`Uni` is deployed at `0x1f9840a85d5aF5bf1D1762F925BDADdC4201F984` on the Ethereum [mainnet](https://etherscan.io/address/0x1f9840a85d5aF5bf1D1762F925BDADdC4201F984), and the [Ropsten](https://ropsten.etherscan.io/address/0x1f9840a85d5aF5bf1D1762F925BDADdC4201F984), [Rinkeby](https://rinkeby.etherscan.io/address/0x1f9840a85d5aF5bf1D1762F925BDADdC4201F984), [Görli](https://goerli.etherscan.io/address/0x1f9840a85d5aF5bf1D1762F925BDADdC4201F984), and [Kovan](https://kovan.etherscan.io/address/0x1f9840a85d5aF5bf1D1762F925BDADdC4201F984) testnets. It was built from commit [ab22c08](https://github.com/Uniswap/governance/commit/ab22c084bacb2636a1aebf9759890063eb6e4946).
+`VNTW` is deployed at `0xFa29FfdeB7666133C97768Fb438f268bd3dD0f50` on the Ethereum [mainnet](https://etherscan.io/address/0xFa29FfdeB7666133C97768Fb438f268bd3dD0f50), and the [Ropsten](https://ropsten.etherscan.io/address/0xFa29FfdeB7666133C97768Fb438f268bd3dD0f50), [Rinkeby](https://rinkeby.etherscan.io/address/0xFa29FfdeB7666133C97768Fb438f268bd3dD0f50), [Görli](https://goerli.etherscan.io/address/0xFa29FfdeB7666133C97768Fb438f268bd3dD0f50), and [Kovan](https://kovan.etherscan.io/address/0xFa29FfdeB7666133C97768Fb438f268bd3dD0f50) testnets. It was built from commit [ab22c08](https://github.com/valuenetworklive2021/valueswap-governance/commit/0xFa29FfdeB7666133C97768Fb438f268bd3dD0f50).
 
 ## ABI
 
 ```typescript
-import Uni from '@uniswap/governance/build/Uni.json'
+import VNTW from '@valueswap/governance/build/VNTW.json'
 ```
 
-[https://unpkg.com/@uniswap/governance@1.0.2/build/Uni.json](https://unpkg.com/@uniswap/governance@1.0.2/build/Uni.json)
+[https://unpkg.com/@valueswap/governance@1.0.3/build/VNTW.json](https://unpkg.com/@valueswap/governance@1.0.3/build/VNTW.json)
 
 # Timelock
 
-`Timelock` is deployed at `0x1a9C8182C09F50C8318d769245beA52c32BE35BC` on the Ethereum [mainnet](https://etherscan.io/address/0x1a9C8182C09F50C8318d769245beA52c32BE35BC), and the [Ropsten](https://ropsten.etherscan.io/address/0x1a9C8182C09F50C8318d769245beA52c32BE35BC), [Rinkeby](https://rinkeby.etherscan.io/address/0x1a9C8182C09F50C8318d769245beA52c32BE35BC), [Görli](https://goerli.etherscan.io/address/0x1a9C8182C09F50C8318d769245beA52c32BE35BC), and [Kovan](https://kovan.etherscan.io/address/0x1a9C8182C09F50C8318d769245beA52c32BE35BC) testnets. It was built from commit [ab22c08](https://github.com/Uniswap/governance/commit/ab22c084bacb2636a1aebf9759890063eb6e4946).
+`Timelock` is deployed at `0x17835680bd01AdE4DAB11cbd70Aa7Dc4e5321B12` on the Ethereum [mainnet](https://etherscan.io/address/0x17835680bd01AdE4DAB11cbd70Aa7Dc4e5321B12), and the [Ropsten](https://ropsten.etherscan.io/address/0x17835680bd01AdE4DAB11cbd70Aa7Dc4e5321B12), [Rinkeby](https://rinkeby.etherscan.io/address/0x17835680bd01AdE4DAB11cbd70Aa7Dc4e5321B12), [Görli](https://goerli.etherscan.io/address/0x17835680bd01AdE4DAB11cbd70Aa7Dc4e5321B12), and [Kovan](https://kovan.etherscan.io/address/0x17835680bd01AdE4DAB11cbd70Aa7Dc4e5321B12) testnets. It was built from commit [ab22c08](https://github.com/valuenetworklive2021/valueswap-governance).
 
 ## ABI
 
 ```typescript
-import Timelock from '@uniswap/governance/build/Timelock.json'
+import Timelock from '@valueswap/governance/build/Timelock.json'
 ```
 
-[https://unpkg.com/@uniswap/governance@1.0.2/build/Timelock.json](https://unpkg.com/@uniswap/governance@1.0.2/build/Timelock.json)
+[https://unpkg.com/@valueswap/governance@1.0.3/build/Timelock.json](https://unpkg.com/@valueswap/governance@1.0.3/build/Timelock.json)
 
 # GovernorAlpha
 
-`GovernorAlpha` is deployed at `0x5e4be8Bc9637f0EAA1A755019e06A68ce081D58F` on the Ethereum [mainnet](https://etherscan.io/address/0x5e4be8Bc9637f0EAA1A755019e06A68ce081D58F), and the [Ropsten](https://ropsten.etherscan.io/address/0x5e4be8Bc9637f0EAA1A755019e06A68ce081D58F), [Rinkeby](https://rinkeby.etherscan.io/address/0x5e4be8Bc9637f0EAA1A755019e06A68ce081D58F), [Görli](https://goerli.etherscan.io/address/0x5e4be8Bc9637f0EAA1A755019e06A68ce081D58F), and [Kovan](https://kovan.etherscan.io/address/0x5e4be8Bc9637f0EAA1A755019e06A68ce081D58F) testnets. It was built from commit [ab22c08](https://github.com/Uniswap/governance/commit/ab22c084bacb2636a1aebf9759890063eb6e4946).
+`GovernorAlpha` is deployed at `0x30dA777Bd6A59228103a212076e28B8DFFA34cae` on the Ethereum [mainnet](https://etherscan.io/address/0x30dA777Bd6A59228103a212076e28B8DFFA34cae), and the [Ropsten](https://ropsten.etherscan.io/address/0x30dA777Bd6A59228103a212076e28B8DFFA34cae), [Rinkeby](https://rinkeby.etherscan.io/address/0x30dA777Bd6A59228103a212076e28B8DFFA34cae), [Görli](https://goerli.etherscan.io/address/0x30dA777Bd6A59228103a212076e28B8DFFA34cae), and [Kovan](https://kovan.etherscan.io/address/0x30dA777Bd6A59228103a212076e28B8DFFA34cae) testnets. It was built from commit [ab22c08](https://github.com/valuenetworklive2021/valueswap-governance).
 
 ## ABI
 
 ```typescript
-import GovernorAlpha from '@uniswap/governance/build/GovernorAlpha.json'
+import GovernorAlpha from '@valueswap/governance/build/GovernorAlpha.json'
 ```
 
-[https://unpkg.com/@uniswap/governance@1.0.2/build/GovernorAlpha.json](https://unpkg.com/@uniswap/governance@1.0.2/build/GovernorAlpha.json)
+[https://unpkg.com/@valueswap/governance@1.0.3/build/GovernorAlpha.json](https://unpkg.com/@valueswap/governance@1.0.3/build/GovernorAlpha.json)
 
 # Miscellaneous Addresses
 
 **The following addresses only exist on the Ethereum mainnet.**
 
-The UNI merkle distributor address is `0x090D4613473dEE047c3f2706764f49E0821D256e`.
+The VNTW merkle distributor address is `0xA486F971952F599bDc9e2Cd44927ee8D4fa717b8`.
 
-The staking rewards factory address is `0x3032Ab3Fa8C01d786D29dAdE018d7f2017918e12`.
+The staking rewards factory address is `0x9Cd456ea45dBB6CBea56fEEeE1B4A54a86e07eC9`.
 
 The four staking rewards addresses are:
 
@@ -73,6 +73,6 @@ The four year-long vesting contract addresses are:
 0x3d30b1ab88d487b0f3061f40de76845bec3f1e94
 ```
 
-The `feeToSetterVester` address is `0x18e433c7Bf8A2E1d0197CE5d8f9AFAda1A771360`.
+The `feeToSetter` address is `0x389C509A2Cacdd036cC95EEDDa5F120b90F15d55`.
 
-The `feeTo` address is `0xDAF819c2437a82f9e01f6586207ebF961a7f0970`.
+The `feeTo` address is `0x53bf133CDfA42208718726aCe43a623a82e05f1d`.

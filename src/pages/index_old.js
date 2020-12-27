@@ -113,7 +113,7 @@ const IndexPage = props => {
           siteUrl
         }
       }
-      unicornImage: file(relativePath: { eq: "uni_image.jpg" }) {
+      unicornImage: file(relativePath: { eq: "vntw_image.jpg" }) {
         childImageSharp {
           fluid(maxWidth: 1200) {
             ...GatsbyImageSharpFluid_noBase64
@@ -157,7 +157,7 @@ const IndexPage = props => {
         <StyledTitle>
           <StyledBodyTitle>Automated Liquidity Protocol.</StyledBodyTitle>
           <span>
-            <Button href="https://app.uniswap.org/">Launch App</Button>
+            <Button href="https://valuenetworklive2021.github.io/valueswap-interface/">Launch App</Button>
             <Button to="/docs" as={Link} outlined>
               Read the docs
             </Button>
@@ -273,9 +273,9 @@ const SummarySection = props => {
   return (
     <StyledSectionFlex>
       <StyledImgSection>
-        <MiniNewInfo to="/blog/launch-uniswap-v2/">
+        <MiniNewInfo to="/blog/launch-valueswap-v2/">
           <NewPill>
-            <LinkTitle>Uniswap</LinkTitle> V2 Launch
+            <LinkTitle>Valueswap</LinkTitle> V2 Launch
           </NewPill>
           Read the announcement ↗
           <StyledUnicornImage fadeIn={false} fluid={props.data.unicornImage.childImageSharp.fluid} />
@@ -283,7 +283,7 @@ const SummarySection = props => {
       </StyledImgSection>
       <StyledImgSection>
         <h1>
-          <b>Uniswap</b> is a fully decentralized protocol for automated liquidity provision on Ethereum.
+          <b>Valueswap</b> is a fully decentralized protocol for automated liquidity provision on Ethereum.
         </h1>
 
         <p>
@@ -291,7 +291,7 @@ const SummarySection = props => {
         </p>
 
         <p>
-          Uniswap empowers developers, liquidity providers and traders to participate in a financial marketplace that is
+          Valueswap empowers developers, liquidity providers and traders to participate in a financial marketplace that is
           open and accessible to all.
         </p>
 
@@ -306,7 +306,7 @@ const SummarySection = props => {
 const DeveloperSection = () => {
   return (
     <>
-      <StyledSectionTitle>Build with Uniswap</StyledSectionTitle>
+      <StyledSectionTitle>Build with Valueswap</StyledSectionTitle>
       <StyledSectionFlex style={{ paddingBottom: '0px', paddingTop: '1rem' }}>
         <Wizard />
       </StyledSectionFlex>
@@ -319,31 +319,23 @@ const ProductsSection = props => {
     <>
       <StyledSectionFlex style={{ paddingBottom: '0px' }}>
         <StyledGoal style={{ width: '100%', maxWidth: '450px' }}>
-          <h1>Use Uniswap</h1>
-          <p>We build open tools and experimental products that interact with the Uniswap protocol.</p>
+          <h1>Use Valueswap</h1>
+          <p>We build open tools and experimental products that interact with the Valueswap protocol.</p>
         </StyledGoal>
       </StyledSectionFlex>
       <StyledSectionFlex wrapSmall={false} style={{ paddingTop: '2rem' }}>
         <MiniCard
-          href="https://app.uniswap.org"
-          title={'Uniswap Interface'}
+          href="https://valuenetworklive2021.github.io/valueswap-interface"
+          title={'Valueswap Interface'}
           image={props.data.swap.childImageSharp.fluid}
           desc={'Trade tokens, add liquidity and create new pools.'}
         />
         <MiniCard
-          href="https://uniswap.info"
-          title={'Uniswap Info'}
+          href="https://valuenetworklive2021.github.io/valueswap-info"
+          title={'Valueswap Info'}
           image={props.data.info.childImageSharp.fluid}
-          desc={'In depth Uniswap protocol market data.'}
+          desc={'In depth Valueswap protocol market data.'}
           backgroundColor={'#F3BE1E'}
-        />
-        <MiniCard
-          href="https://unisocks.exchange"
-          title={'Unisocks'}
-          image={props.data.socks.childImageSharp.fluid}
-          desc={'Experimental speculative fashion.'}
-          backgroundColor={'#000000'}
-          color={'white'}
         />
       </StyledSectionFlex>
     </>
@@ -372,9 +364,9 @@ const GoalSection = () => {
       <StyledGoal>
         <h1>Mission</h1>
         <p>
-          <b>Uniswap</b> is transparent, censorship-resistant financial infrastructure for Ethereum.
+          <b>Valueswap</b> is transparent, censorship-resistant financial infrastructure for Ethereum.
         </p>
-        <p>Uniswap lowers barriers of entry to financial participation and removes central points of failure.</p>
+        <p>Valueswap lowers barriers of entry to financial participation and removes central points of failure.</p>
         <p>
           It enables anyone to create new markets, provide liquidity, and build financial applications that could not
           have existed before.

@@ -200,18 +200,18 @@ const IndexPage = props => {
       <StyledBody>
         <StyledTitle>
           <StyledBodyTitle>
-            Uniswap is a decentralized protocol for automated liquidity provision on Ethereum.
+            Valueswap is a decentralized protocol for automated liquidity provision on Ethereum.
           </StyledBodyTitle>
           <StyledNav>
-            <StyledExternalLink href={'https://app.uniswap.org'}>
+            <StyledExternalLink href={'https://valuenetworklive2021.github.io/valueswap-interface'}>
               Use the app <span style={{ fontSize: '11px' }}>↗</span>
             </StyledExternalLink>
             <StyledLink to={'/docs/v2/'}>Read the docs</StyledLink>
             <StyledLink to={'/faq'}>FAQ</StyledLink>
           </StyledNav>
           <StyledImgSection>
-            <MiniNewInfo to="/blog/uni/">
-              <NewPill>UNI</NewPill>
+            <MiniNewInfo to="/blog/vntw/">
+              <NewPill>VNTW</NewPill>
               Read the announcement ↗
             </MiniNewInfo>
           </StyledImgSection>

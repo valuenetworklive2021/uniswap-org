@@ -4,13 +4,13 @@ const menu = [
     sublinks: [
       {
         name: 'App',
-        link: 'https://app.uniswap.org/#/',
+        link: 'https://valuenetworklive2021.github.io/valueswap-interface/#/',
         description: 'Swap tokens and supply liquidity'
       },
       {
         name: 'Analytics',
-        link: 'https://uniswap.info/',
-        description: 'Uniswap analytics and historical data'
+        link: 'https://valuenetworklive2021.github.io/valueswap-info/',
+        description: 'Valueswap analytics and historical data'
       },
       {
         name: 'Token Lists',
@@ -36,7 +36,7 @@ const menu = [
         name: 'Documentation',
         link: '/docs/v2'
       },
-      { name: 'GitHub', link: 'https://github.com/Uniswap' },
+      { name: 'GitHub', link: 'https://github.com/valuenetworklive2021' },
       { name: 'Whitepaper', link: '/whitepaper.pdf' },
       { name: 'Audit', link: '/audit.html' },
       { name: 'Bug Bounty', link: '/bug-bounty' }
@@ -46,11 +46,11 @@ const menu = [
     name: 'Governance',
     sublinks: [
       {
-        name: 'UNI Token',
-        link: '/blog/uni'
+        name: 'VNTW Token',
+        link: '/blog/vntw'
       },
-      { name: 'Forum', link: 'https://gov.uniswap.org/' },
-      { name: 'Voting Portal', link: 'https://app.uniswap.org/#/vote' },
+      { name: 'Forum', link: 'https://gov.valuenetworklive2021.github.io/valueswap-protocol/' },
+      { name: 'Voting Portal', link: 'https://valuenetworklive2021.github.io/valueswap-interface/#/vote' },
       { name: 'Documentation', link: '/docs/v2/governance/overview' }
     ]
   },
@@ -58,8 +58,8 @@ const menu = [
     name: 'Community',
     sublinks: [
       { name: 'Discord', link: 'https://discord.gg/XErMcTq' },
-      { name: 'Twitter', link: 'https://twitter.com/UniswapProtocol' },
-      { name: 'Reddit', link: 'https://www.reddit.com/r/Uniswap' }
+      { name: 'Twitter', link: 'https://twitter.com/ValueswapProtocol' },
+      { name: 'Reddit', link: 'https://www.reddit.com/r/Valueswap' }
     ]
   },
   {

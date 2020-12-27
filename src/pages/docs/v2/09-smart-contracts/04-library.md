@@ -5,7 +5,7 @@ tags: smart-contracts, documentation
 
 # Code
 
-[`UniswapV2Library.sol`](https://github.com/Uniswap/uniswap-v2-periphery/blob/master/contracts/libraries/UniswapV2Library.sol)
+[`ValueswapV2Library.sol`](https://github.com/valuenetworklive2021/valueswap-v2-periphery/blob/master/contracts/libraries/ValueswapV2Library.sol)
 
 # Internal Functions
 

@@ -1,5 +1,5 @@
 import styled from 'styled-components'
-import uImage from '../images/big_unicorn.png'
+import uImage from '../images/vntw_big.png'
 import noise from '../images/noise.png'
 import { Link } from 'gatsby'
 

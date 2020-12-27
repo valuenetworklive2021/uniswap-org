@@ -130,7 +130,7 @@ export const ETH_PRICE = block => {
 
 const APOLLO_QUERY = gql`
   {
-    uniswapFactory(id: "0x5C69bEe701ef814a2B6a3EDD4B1652CB9cc5aA6f") {
+    valueswapFactory(id: "0xAD7172De38cCFb3ecEaAD0a3f1700bA4E0aEfeB0") {
       totalVolumeUSD
       totalLiquidityUSD
       pairCount
@@ -141,10 +141,10 @@ const APOLLO_QUERY = gql`
   }
 `
 
-export const UNISWAP_GLOBALS_24HOURS_AGO_QUERY = block => {
+export const VALUESWAP_GLOBALS_24HOURS_AGO_QUERY = block => {
   let queryString = `
-  query uniswapFactory {
-    uniswapFactory(id: "0x5C69bEe701ef814a2B6a3EDD4B1652CB9cc5aA6f", block: { number: ${block} }) {
+  query valueswapFactory {
+    valueswapFactory(id: "0xAD7172De38cCFb3ecEaAD0a3f1700bA4E0aEfeB0", block: { number: ${block} }) {
       totalVolumeUSD
       totalLiquidityUSD
       pairCount
@@ -174,12 +174,12 @@ const About = props => {
   useEffect(() => {
     async function getData() {
       let result = await client.query({
-        query: UNISWAP_GLOBALS_24HOURS_AGO_QUERY(oneDayBackBlock),
+        query: VALUESWAP_GLOBALS_24HOURS_AGO_QUERY(oneDayBackBlock),
 
         fetchPolicy: 'cache-first'
       })
       if (result) {
-        setOnedayResult(result?.data?.uniswapFactory)
+        setOnedayResult(result?.data?.valueswapFactory)
       }
     }
     if (oneDayBackBlock) {
@@ -187,16 +187,16 @@ const About = props => {
     }
   }, [oneDayBackBlock])
 
-  let UniStats = {
+  let VntwStats = {
     key: function(n) {
       return this[Object.keys(this)[n]]
     }
   }
 
   if (data && oneDayResult) {
-    const volume24Hour = parseFloat(data?.uniswapFactory?.totalVolumeUSD) - parseFloat(oneDayResult?.totalVolumeUSD)
+    const volume24Hour = parseFloat(data?.valueswapFactory?.totalVolumeUSD) - parseFloat(oneDayResult?.totalVolumeUSD)
 
-    UniStats.volume = [
+    VntwStats.volume = [
       new Intl.NumberFormat('en-US', {
         style: 'currency',
         currency: 'USD',
@@ -204,18 +204,18 @@ const About = props => {
         compactDisplay: 'short'
       }).format(volume24Hour)
     ]
-    UniStats.liquidity = [
+    VntwStats.liquidity = [
       new Intl.NumberFormat('en-US', {
         style: 'currency',
         currency: 'USD',
         notation: 'compact',
         compactDisplay: 'short'
         // maximumSignificantDigits: 5
-      }).format(data.uniswapFactory.totalLiquidityUSD)
+      }).format(data.valueswapFactory.totalLiquidityUSD)
     ]
-    UniStats.exchanges = [Number.parseFloat(data?.uniswapFactory?.pairCount)]
+    VntwStats.exchanges = [Number.parseFloat(data?.valueswapFactory?.pairCount)]
 
-    UniStats.ETHprice = [
+    VntwStats.ETHprice = [
       new Intl.NumberFormat('en-US', {
         style: 'currency',
         currency: 'USD',
@@ -223,7 +223,7 @@ const About = props => {
         compactDisplay: 'short',
         maximumSignificantDigits: 5
       }).format(parseFloat(data?.bundle?.ethPrice)),
-      '<small> Uni ETH Price </small>'
+      '<small> VNTW ETH Price </small>'
     ]
   }
 
@@ -241,15 +241,15 @@ const About = props => {
           <Numbers id="about" style={{ flexDirection: 'column' }}>
             <div style={{ display: 'flex', width: '100%', justifyContent: 'space-between', margin: 0 }}>
               <h2 style={{ fontSize: '32px' }}>
-                {UniStats.exchanges}
+                {VntwStats.exchanges}
                 <p style={{ fontSize: '14px' }}>Token Pairs </p>
               </h2>
               <h2 style={{ fontSize: '32px' }}>
-                {UniStats.volume}
+                {VntwStats.volume}
                 <p style={{ fontSize: '14px' }}>24H Volume</p>
               </h2>
               <h2 style={{ fontSize: '32px' }}>
-                {UniStats.liquidity}
+                {VntwStats.liquidity}
                 <p style={{ fontSize: '14px' }}>Total Liquidity</p>
               </h2>
               <h2 style={{ fontSize: '32px' }}>
@@ -260,13 +260,13 @@ const About = props => {
           </Numbers>
           <StyledSectionFlex id="about" style={{ flexDirection: 'column' }}>
             <p>
-              Uniswap empowers developers, liquidity providers and traders to participate in a financial marketplace
+              Valueswap empowers developers, liquidity providers and traders to participate in a financial marketplace
               that is open and accessible to all.
             </p>
             <p>We are committed to open source software and building on the decentralized web.</p>
 
             <div style={{ display: 'flex', width: '100%', gap: '1rem', margin: 0 }}>
-              <InternalLink to="/blog/uni">UNI token</InternalLink>
+              <InternalLink to="/blog/vntw">VNTW token</InternalLink>
               <InternalLink to="/whitepaper.pdf">
                 Whitepaper <span style={{ fontSize: '11px' }}>↗</span>
               </InternalLink>
@@ -280,11 +280,11 @@ const About = props => {
           <StyledSectionFlex id="contact" style={{ flexDirection: 'column' }}>
             <h2 style={{ width: '100%' }}>Contact</h2>
             <p>
-              To get in touch, please email <a href="mailto:contact@uniswap.org">contact@uniswap.org</a>
+              To get in touch, please email <a href="mailto:rename-contact@valuenetworklive2021.github.io/valueswap-protocol">rename-contact@valuenetworklive2021.github.io/valueswap-protocol</a>
             </p>
 
             <p>
-              We encourage anyone facing issues with their wallet, transaction or Uniswap related question to join our
+              We encourage anyone facing issues with their wallet, transaction or Valueswap related question to join our
               active community discord.
             </p>
 
@@ -306,25 +306,25 @@ const About = props => {
             <p>We are looking for talented people to join our team!</p>
 
             <span>
-              <a href="https://angel.co/company/uniswap/jobs/888942-community-manager">
+              <a href="#">
                 {' '}
                 <h3>Community Manager</h3>
               </a>
             </span>
             <span>
-              <a href="https://angel.co/company/uniswap/jobs/889337-senior-front-end-engineer">
+              <a href="#">
                 {' '}
                 <h3>Senior Front End Engineer</h3>
               </a>
             </span>
             <span>
-              <a href="https://angel.co/company/uniswap/jobs/921706-smart-contract-engineer">
+              <a href="#">
                 {' '}
                 <h3>Smart Contract Engineer</h3>
               </a>
             </span>
             <p>
-              Uniswap welcomes all qualified persons to apply regardless of race, religion, gender, gender identity or
+              Valueswap welcomes all qualified persons to apply regardless of race, religion, gender, gender identity or
               expression, sexual orientation, national origin, genetics, disability, age, or veteran status.
               Compensation will be competitive and commensurate with experience. This is a full time role which includes
               health insurance and other benefits.
@@ -334,7 +334,7 @@ const About = props => {
           <StyledSectionFlex id="brand" style={{ flexDirection: 'column' }}>
             <h2 style={{ width: '100%' }}>Brand Assets</h2>
             <p>
-              Download the logo and other brand assets samples <a href="/Uniswap_brand_assets.zip">here</a>.
+              Download the logo and other brand assets samples <a href="/Valueswap_brand_assets.zip">here</a>.
             </p>
           </StyledSectionFlex>
         </span>

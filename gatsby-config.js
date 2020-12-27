@@ -6,12 +6,12 @@ require('dotenv').config({
 
 module.exports = {
   siteMetadata: {
-    title: `Uniswap`,
+    title: `Valueswap`,
     description: `Automated liquidity protocol on Ethereum`,
-    author: `@UniswapProtocol`,
+    author: `@ValueswapProtocol`,
     menulinks: menu,
-    siteUrl: `https://uniswap.org`,
-    repository: `https://github.com/Uniswap/uniswap-org`,
+    siteUrl: `https://valuenetworklive2021.github.io/valueswap-protocol`,
+    repository: `https://github.com/valuenetworklive2021/valueswap-protocol`,
     commit: process.env.NOW_GITHUB_COMMIT_SHA || `master`
   },
   plugins: [
@@ -20,14 +20,14 @@ module.exports = {
       options: {
         bucketName: process.env.AWS_S3_BUCKET || 'NOT_SPECIFIED',
         protocol: 'https',
-        hostname: 'uniswap.org',
+        hostname: 'valuenetworklive2021.github.io/valueswap-protocol',
         acl: null
       }
     },
     {
       resolve: `gatsby-plugin-canonical-urls`,
       options: {
-        siteUrl: `https://uniswap.org`
+        siteUrl: `https://valuenetworklive2021.github.io/valueswap-protocol`
       }
     },
     {
@@ -108,9 +108,9 @@ module.exports = {
           {
             resolve: `gatsby-remark-twitter-cards`,
             options: {
-              title: 'Uniswap', // website title
+              title: 'Valueswap', // website title
               separator: '|', // default
-              author: '@UniswapProtocol',
+              author: '@ValueswapProtocol',
               background: require.resolve('./static/images/twitter_card_bg.jpg'), // path to 1200x630px file or hex code, defaults to black (#000000)
               fontColor: '#FF3093', // defaults to white (#ffffff)
               fontStyle: 'sans-serif', // default
@@ -192,7 +192,7 @@ module.exports = {
             }
             `,
             output: '/rss.xml',
-            title: 'Uniswap Blog RSS Feed'
+            title: 'Valueswap Blog RSS Feed'
           }
         ]
       }
@@ -202,7 +202,7 @@ module.exports = {
       resolve: `gatsby-plugin-algolia-docsearch-appid`,
       options: {
         apiKey: '8962240e69e6d23a88432f501c115470',
-        indexName: 'uniswap_v2_docs',
+        indexName: 'valueswap_v2_docs',
         appId: 'VZ0CVS8XCW',
         inputSelector: 'blank' // use dummy selector to avoid double render
       }

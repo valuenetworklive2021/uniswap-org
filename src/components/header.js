@@ -6,7 +6,7 @@ import { useStaticQuery, graphql } from 'gatsby'
 import styled from 'styled-components'
 import Menu from './menu'
 
-import Uni from '../images/uni.inline.svg'
+import VNTW from '../images/vntw.inline.svg'
 import MenuIcon from '../images/menu.inline.svg'
 import CloseIcon from '../images/x.inline.svg'
 
@@ -126,7 +126,7 @@ const MenuToggle = styled.button`
   }
 `
 
-const StyledUni = styled(Uni)`
+const StyledVntw = styled(VNTW)`
   path {
     fill: ${({ theme }) => theme.textColor};
   }
@@ -221,7 +221,7 @@ const Header = props => {
             textDecoration: `none`
           }}
         >
-          <StyledUni />
+          <StyledVntw />
         </StyledHomeLink>
       </StyledNavTitleWrapper>
       <MenuToggle ref={button} open={isMenuOpen} onClick={() => updateIsMenuOpen(!isMenuOpen)}>
@@ -237,7 +237,7 @@ const Header = props => {
           </StyledButton>
         </HideSmall>
 
-        {props.path !== undefined && <StyledTradeLink href="https://app.uniswap.org/">Launch App ↗</StyledTradeLink>}
+        {props.path !== undefined && <StyledTradeLink href="https://valuenetworklive2021.github.io/valueswap-interface/">Launch App ↗</StyledTradeLink>}
       </StyledNav>
     </StyledHeader>
   )

@@ -11,13 +11,13 @@ The most obvious way to get the address for a pair is to call <Link to='/docs/v2
 
 # CREATE2
 
-Thanks to some [fancy footwork in the factory](https://github.com/Uniswap/uniswap-v2-core/blob/master/contracts/UniswapV2Factory.sol#L32), we can also compute pair addresses _without any on-chain lookups_ because of [CREATE2](https://eips.ethereum.org/EIPS/eip-1014). The following values are required for this technique:
+Thanks to some [fancy footwork in the factory](https://github.com/valuenetworklive2021/valueswap-v2-core/blob/master/contracts/ValueswapV2Factory.sol#L32), we can also compute pair addresses _without any on-chain lookups_ because of [CREATE2](https://eips.ethereum.org/EIPS/eip-1014). The following values are required for this technique:
 
 |                        |                                                                                 |
 | :--------------------- | :------------------------------------------------------------------------------ |
 | `address`              | The <Link to='/docs/v2/smart-contracts/factory/#address'>factory address</Link> |
 | `salt`                 | `keccak256(abi.encodePacked(token0, token1))`                                   |
-| `keccak256(init_code)` | `0x96e8ac4277198ff8b6f785478aa9a39f403cb768dd02cbee326c3e7da348845f`            |
+| `keccak256(init_code)` | `0x582192e0e8b232be2f0b8be16eb19ed4d4947868baffd369ec116019ee2b8d37`            |
 
 - `token0` must be strictly less than `token1` by sort order.
 
@@ -28,10 +28,10 @@ Thanks to some [fancy footwork in the factory](https://github.com/Uniswap/uniswa
 
 ### TypeScript
 
-This example makes use of the <Link to='docs/v2/SDK/getting-started'>Uniswap SDK</Link>. In reality, the SDK computes pair addresses behind the scenes, obviating the need to compute them manually like this.
+This example makes use of the <Link to='docs/v2/SDK/getting-started'>Valueswap SDK</Link>. In reality, the SDK computes pair addresses behind the scenes, obviating the need to compute them manually like this.
 
 ```typescript
-import { FACTORY_ADDRESS, INIT_CODE_HASH } from '@uniswap/sdk'
+import { FACTORY_ADDRESS, INIT_CODE_HASH } from '@valueswap/sdk'
 import { pack, keccak256 } from '@ethersproject/solidity'
 import { getCreate2Address } from '@ethersproject/address'
 

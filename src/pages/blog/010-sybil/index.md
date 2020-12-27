@@ -10,7 +10,7 @@ previewText: 'Sybil maps on-chain addresses to digital identities to maintain a 
 
 Today we're excited to introduce **[Sybil](https://sybil.org/), a governance tool for discovering delegates.** Sybil **maps on-chain addresses to digital identities** to maintain a list of delegates, all while avoiding pesky user signups, on-chain transactions, and manual record keeping.
 
-We hope that Sybil can grow adoption of Uniswap's governance system and encourage both existing and future Uniswap delegates to verify their identities, **making it easier for delegators to discover and engage with their community representatives**.
+We hope that Sybil can grow adoption of Valueswap's governance system and encourage both existing and future Valueswap delegates to verify their identities, **making it easier for delegators to discover and engage with their community representatives**.
 
 ## The importance of delegation
 
@@ -34,7 +34,7 @@ In the background, Sybil verifies that the tweet content matches the signed mess
 
 ## Extending Sybil
 
-At launch, Sybil supports both Uniswap and Compound's delegate lists but it's mapping tool can be used to display public identities for any project.
+At launch, Sybil supports both Valueswap and Compound's delegate lists but it's mapping tool can be used to display public identities for any project.
 
 Identities work cross-platform, so users will only ever need to go through Sybil verification once per identity. For now, Sybil is solely integrated with Twitter, although the architecture allows for any other service to act as an authentication method: GitHub integration is coming soon!
 

@@ -90,7 +90,7 @@ export const ETH_PRICE = block => {
 
 const APOLLO_QUERY = gql`
   {
-    uniswapFactory(id: "0x5C69bEe701ef814a2B6a3EDD4B1652CB9cc5aA6f") {
+    valueswapFactory(id: "0xAD7172De38cCFb3ecEaAD0a3f1700bA4E0aEfeB0") {
       totalVolumeUSD
       totalLiquidityUSD
       pairCount
@@ -101,10 +101,10 @@ const APOLLO_QUERY = gql`
   }
 `
 
-export const UNISWAP_GLOBALS_24HOURS_AGO_QUERY = block => {
+export const VALUESWAP_GLOBALS_24HOURS_AGO_QUERY = block => {
   let queryString = `
-  query uniswapFactory {
-    uniswapFactory(id: "0x5C69bEe701ef814a2B6a3EDD4B1652CB9cc5aA6f", block: { number: ${block} }) {
+  query valueswapFactory {
+    valueswapFactory(id: "0xAD7172De38cCFb3ecEaAD0a3f1700bA4E0aEfeB0", block: { number: ${block} }) {
       totalVolumeUSD
       totalLiquidityUSD
       pairCount
@@ -136,12 +136,12 @@ export default function Ticker() {
   useEffect(() => {
     async function getData() {
       let result = await client.query({
-        query: UNISWAP_GLOBALS_24HOURS_AGO_QUERY(oneDayBackBlock),
+        query: VALUESWAP_GLOBALS_24HOURS_AGO_QUERY(oneDayBackBlock),
 
         fetchPolicy: 'cache-first'
       })
       if (result) {
-        setOnedayResult(result?.data?.uniswapFactory)
+        setOnedayResult(result?.data?.valueswapFactory)
       }
     }
     if (oneDayBackBlock) {
@@ -151,16 +151,16 @@ export default function Ticker() {
 
   const [totalElements] = useState(8)
 
-  let UniStats = {
+  let VntwStats = {
     key: function(n) {
       return this[Object.keys(this)[n]]
     }
   }
 
   if (data && oneDayResult) {
-    const volume24Hour = parseFloat(data?.uniswapFactory?.totalVolumeUSD) - parseFloat(oneDayResult?.totalVolumeUSD)
+    const volume24Hour = parseFloat(data?.valueswapFactory?.totalVolumeUSD) - parseFloat(oneDayResult?.totalVolumeUSD)
 
-    UniStats.volume = [
+    VntwStats.volume = [
       new Intl.NumberFormat('en-US', {
         style: 'currency',
         currency: 'USD',
@@ -169,19 +169,19 @@ export default function Ticker() {
       }).format(volume24Hour),
       ' 24h Volume'
     ]
-    UniStats.liquidity = [
+    VntwStats.liquidity = [
       new Intl.NumberFormat('en-US', {
         style: 'currency',
         currency: 'USD',
         notation: 'compact',
         compactDisplay: 'short'
         // maximumSignificantDigits: 5
-      }).format(data.uniswapFactory.totalLiquidityUSD),
+      }).format(data.valueswapFactory.totalLiquidityUSD),
       ' Total Liquidity'
     ]
-    UniStats.exchanges = [Number.parseFloat(data?.uniswapFactory?.pairCount), ' Total Pools']
+    VntwStats.exchanges = [Number.parseFloat(data?.valueswapFactory?.pairCount), ' Total Pools']
 
-    UniStats.ETHprice = [
+    VntwStats.ETHprice = [
       new Intl.NumberFormat('en-US', {
         style: 'currency',
         currency: 'USD',
@@ -189,15 +189,15 @@ export default function Ticker() {
         compactDisplay: 'short',
         maximumSignificantDigits: 5
       }).format(parseFloat(data?.bundle?.ethPrice)),
-      ' Uni ETH Price'
+      ' VNTW ETH Price'
     ]
   }
 
   useLayoutEffect(() => {
-    if (loading === false && UniStats.volume !== undefined) {
+    if (loading === false && VntwStats.volume !== undefined) {
       updateInitialized(true)
     }
-  }, [loading, UniStats.volume])
+  }, [loading, VntwStats.volume])
 
   useLayoutEffect(() => {
     initialized &&
@@ -208,10 +208,10 @@ export default function Ticker() {
 
   return (
     initialized && (
-      <MarqueeWrapper href="https://uniswap.info/" className="ticker" data-speed="0.25" data-pausable="true">
+      <MarqueeWrapper href="https://valuenetworklive2021.github.io/valueswap-info/" className="ticker" data-speed="0.25" data-pausable="true">
         <div>
           {Array.from({ length: totalElements }).map((_, idx) => {
-            return <AnimatingEl stat={UniStats.key((idx % 4) + 1)} key={idx} />
+            return <AnimatingEl stat={VntwStats.key((idx % 4) + 1)} key={idx} />
           })}
         </div>
       </MarqueeWrapper>

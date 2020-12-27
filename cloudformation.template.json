@@ -1,6 +1,6 @@
 {
   "AWSTemplateFormatVersion": "2010-09-09",
-  "Description": "uniswap.org site",
+  "Description": "valuenetworklive2021.github.io/valueswap-protocol site",
   "Outputs": {
     "DeploymentAccessKeyId": {
       "Description": "Access key ID for deploying to the S3 bucket",
@@ -85,12 +85,12 @@
       "Type": "AWS::CertificateManager::Certificate",
       "Description": "The certificate used to secure the CloudFront distribution",
       "Properties": {
-        "DomainName": "uniswap.org",
+        "DomainName": "valuenetworklive2021.github.io/valueswap-protocol",
         "ValidationMethod": "DNS",
         "Tags": [
           {
             "Key": "Name",
-            "Value": "uniswap.org"
+            "Value": "valuenetworklive2021.github.io/valueswap-protocol"
           },
           {
             "Key": "Stack",
@@ -201,10 +201,10 @@
           }
         ],
         "DistributionConfig": {
-          "Comment": "uniswap.org",
+          "Comment": "valuenetworklive2021.github.io/valueswap-protocol",
           "Enabled": true,
           "Aliases": [
-            "uniswap.org"
+            "valuenetworklive2021.github.io/valueswap-protocol"
           ],
           "DefaultRootObject": "index.html",
           "HttpVersion": "http2",

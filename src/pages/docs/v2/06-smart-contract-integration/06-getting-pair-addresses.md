@@ -11,13 +11,13 @@ The most obvious way to get the address for a pair is to call <Link to='/docs/v2
 
 # CREATE2
 
-Thanks to some [fancy footwork in the factory](https://github.com/Uniswap/uniswap-v2-core/blob/master/contracts/UniswapV2Factory.sol#L32), we can also compute pair addresses _without any on-chain lookups_ because of [CREATE2](https://eips.ethereum.org/EIPS/eip-1014). The following values are required for this technique:
+Thanks to some [fancy footwork in the factory](https://github.com/valuenetworklive2021/valueswap-v2-core/blob/master/contracts/ValueswapV2Factory.sol#L32), we can also compute pair addresses _without any on-chain lookups_ because of [CREATE2](https://eips.ethereum.org/EIPS/eip-1014). The following values are required for this technique:
 
 |                        |                                                                                 |
 | :--------------------- | :------------------------------------------------------------------------------ |
 | `address`              | The <Link to='/docs/v2/smart-contracts/factory/#address'>factory address</Link> |
 | `salt`                 | `keccak256(abi.encodePacked(token0, token1))`                                   |
-| `keccak256(init_code)` | `0x96e8ac4277198ff8b6f785478aa9a39f403cb768dd02cbee326c3e7da348845f`            |
+| `keccak256(init_code)` | `0x582192e0e8b232be2f0b8be16eb19ed4d4947868baffd369ec116019ee2b8d37`            |
 
 - `token0` must be strictly less than `token1` by sort order.
 
@@ -29,7 +29,7 @@ Thanks to some [fancy footwork in the factory](https://github.com/Uniswap/uniswa
 ### Solidity
 
 ```solidity
-address factory = 0x5C69bEe701ef814a2B6a3EDD4B1652CB9cc5aA6f;
+address factory = 0xAD7172De38cCFb3ecEaAD0a3f1700bA4E0aEfeB0;
 address token0 = 0xCAFE000000000000000000000000000000000000; // change me!
 address token1 = 0xF00D000000000000000000000000000000000000; // change me!
 
@@ -37,6 +37,6 @@ address pair = address(uint(keccak256(abi.encodePacked(
   hex'ff',
   factory,
   keccak256(abi.encodePacked(token0, token1)),
-  hex'96e8ac4277198ff8b6f785478aa9a39f403cb768dd02cbee326c3e7da348845f'
+  hex'582192e0e8b232be2f0b8be16eb19ed4d4947868baffd369ec116019ee2b8d37'
 ))));
 ```

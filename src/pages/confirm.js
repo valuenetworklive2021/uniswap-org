@@ -74,7 +74,7 @@ const StyledCardBG = styled(Img)`
 const Confirm = props => {
   const data = useStaticQuery(graphql`
     {
-      unicornImage: file(relativePath: { eq: "uni_image.jpg" }) {
+      unicornImage: file(relativePath: { eq: "vntw_image.jpg" }) {
         childImageSharp {
           fluid(maxWidth: 1200) {
             ...GatsbyImageSharpFluid_noBase64
