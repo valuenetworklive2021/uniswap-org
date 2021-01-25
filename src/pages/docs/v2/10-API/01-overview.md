@@ -13,7 +13,7 @@ This section explains the Valueswap Subgraph and how to interact with it. The Va
 
 ## Usage
 
-The subgraph provides a snapshot of the current state of Valueswap and also tracks historical data. It is currently used to power [valuenetworklive2021.github.io/valueswap-info](https://valuenetworklive2021.github.io/valueswap-info/). **It is not intended to be used as a data source for structuring transactions (contracts should be referenced directly for the most reliable live data).**
+The subgraph provides a snapshot of the current state of Valueswap and also tracks historical data. It is currently used to power [info.valueswap.valuenetwork.live](https://info.valueswap.valuenetwork.live/). **It is not intended to be used as a data source for structuring transactions (contracts should be referenced directly for the most reliable live data).**
 
 ## Making Queries
 

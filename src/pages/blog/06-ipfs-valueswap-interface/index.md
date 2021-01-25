@@ -12,10 +12,10 @@ previewText: 'The Valueswap Interface is now served exclusively from IPFS'
 - The open-source [Valueswap Interface](https://github.com/valuenetworklive2021/valueswap-interface) built by our team and
   community is [automatically deployed](https://github.com/valuenetworklive2021/valueswap-interface/releases) daily to IPFS
 - Community members can pin the IPFS hashes to ensure availability
-- We use IPNS + DNSLink to point `/ipns/valuenetworklive2021.github.io/valueswap-interface` to the latest [IPFS release](https://github.com/valuenetworklive2021/valueswap-interface/releases)
-- [valuenetworklive2021.github.io/valueswap-interface](https://valuenetworklive2021.github.io/valueswap-interface) is now served exclusively from the latest
+- We use IPNS + DNSLink to point `/ipns/app.valueswap.valuenetwork.live` to the latest [IPFS release](https://github.com/valuenetworklive2021/valueswap-interface/releases)
+- [app.valueswap.valuenetwork.live](https://app.valueswap.valuenetwork.live) is now served exclusively from the latest
   [IPFS release](https://github.com/valuenetworklive2021/valueswap-interface/releases), however any IPFS gateway can be used directly
-- The URL [valuenetworklive2021.github.io/valueswap-interface](https://valuenetworklive2021.github.io/valueswap-interface) now forwards to [valuenetworklive2021.github.io/valueswap-interface](https://valuenetworklive2021.github.io/valueswap-interface)
+- The URL [app.valueswap.valuenetwork.live](https://app.valueswap.valuenetwork.live) now forwards to [app.valueswap.valuenetwork.live](https://app.valueswap.valuenetwork.live)
 - The ENS contenthash for `valueswap.eth` now points to the latest IPFS release allowing the URL [valueswap.eth.link](https://valueswap.eth.link/) to be used
 
 ## Interfaces and decentralization
@@ -47,15 +47,15 @@ is now deployed at least once per day to IPFS. Each release is automatically [pi
 using [pinata.cloud](https://pinata.cloud), a free IPFS pinning service.
 The IPFS releases can be found [on GitHub](https://github.com/valuenetworklive2021/valueswap-interface/releases).
 
-This means the Valueswap Interface can now be accessed via IPFS directly, through a gateway such as [cloudflare-ipfs.com](https://cloudflare-ipfs.com/ipns/valuenetworklive2021.github.io/valueswap-interface/), or by an _alias_ to the Cloudflare gateway at [valuenetworklive2021.github.io/valueswap-interface](https://valuenetworklive2021.github.io/valueswap-interface).
+This means the Valueswap Interface can now be accessed via IPFS directly, through a gateway such as [cloudflare-ipfs.com](https://cloudflare-ipfs.com/ipns/app.valueswap.valuenetwork.live/), or by an _alias_ to the Cloudflare gateway at [app.valueswap.valuenetwork.live](https://app.valueswap.valuenetwork.live).
 
-The domain valuenetworklive2021.github.io/valueswap-interface is now redirected to valuenetworklive2021.github.io/valueswap-interface, which is an alias to the Cloudflare IPFS gateway that serves the Valueswap Interface from IPFS.
+The domain app.valueswap.valuenetwork.live is now redirected to app.valueswap.valuenetwork.live, which is an alias to the Cloudflare IPFS gateway that serves the Valueswap Interface from IPFS.
 
 ## How we did it
 
-The `valuenetworklive2021.github.io/valueswap-interface` subdomain is given a CNAME record pointing at `cloudflare-ipfs.com`.
+The `app.valueswap.valuenetwork.live` subdomain is given a CNAME record pointing at `cloudflare-ipfs.com`.
 
-When a user visits the domain `valuenetworklive2021.github.io/valueswap-interface`, the browser first looks up the DNS record and finds a CNAME to `cloudflare-ipfs.com`.
+When a user visits the domain `app.valueswap.valuenetwork.live`, the browser first looks up the DNS record and finds a CNAME to `cloudflare-ipfs.com`.
 The server at `cloudflare-ipfs.com`, i.e. Cloudflare’s IPFS gateway, looks up the
 [DNSLink record](https://docs.ipfs.io/concepts/dnslink/) for the subdomain.
 That TXT record contains the IPFS hash of the latest release.
@@ -66,7 +66,7 @@ Cloudflare’s IPFS gateway then fetches the content using the IPFS protocol and
 
 Because IPFS gateways will not default to serving `/index.html` as is expected by many single page applications, the Valueswap Interface uses a "hash" based router.
 
-This means that links that contain paths, such as [valuenetworklive2021.github.io/valueswap-interface/swap](https://valuenetworklive2021.github.io/valueswap-interface) will no longer work, but [valuenetworklive2021.github.io/valueswap-interface/#/pool](https://valuenetworklive2021.github.io/valueswap-interface/#/swap) will work.
+This means that links that contain paths, such as [app.valueswap.valuenetwork.live/#/swap](https://app.valueswap.valuenetwork.live) will no longer work, but [app.valueswap.valuenetwork.live/#/pool](https://app.valueswap.valuenetwork.live/#/swap) will work.
 
 ## Security Unicorn
 
@@ -93,4 +93,4 @@ Cloudflare's gateway uses the IPFS hash of the deployment in the `etag` header, 
 
 To keep the Valueswap Interface available, you can pin the hash of the [latest release](https://github.com/valuenetworklive2021/valueswap-interface/releases/latest).
 
-If this sort of work sounds cool to you, we're hiring! [Shoot us a message!](mailto:rename-contact@valuenetworklive2021.github.io/valueswap-protocol)
+If this sort of work sounds cool to you, we're hiring! [Shoot us a message!](mailto:contact@valuenetwork.live)

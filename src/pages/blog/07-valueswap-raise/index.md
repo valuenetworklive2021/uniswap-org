@@ -20,4 +20,4 @@ We can't wait to present our design to the Ethereum community in the coming mont
 
 Job postings for engineers and a community manager are already up, and more will be posted over the coming months.
 
-https://valuenetworklive2021.github.io/valueswap-protocol/about#jobs
+https://valueswap.valuenetwork.live/about#jobs

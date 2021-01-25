@@ -280,7 +280,7 @@ const About = props => {
           <StyledSectionFlex id="contact" style={{ flexDirection: 'column' }}>
             <h2 style={{ width: '100%' }}>Contact</h2>
             <p>
-              To get in touch, please email <a href="mailto:rename-contact@valuenetworklive2021.github.io/valueswap-protocol">rename-contact@valuenetworklive2021.github.io/valueswap-protocol</a>
+              To get in touch, please email <a href="mailto:contact@valuenetwork.live">contact@valuenetwork.live</a>
             </p>
 
             <p>

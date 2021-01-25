@@ -2,121 +2,121 @@
   "index_name": "valueswap_v2_docs",
   "start_urls": [
     {
-      "url": "https://valuenetworklive2021.github.io/valueswap-protocol/docs/v2/",
+      "url": "https://valueswap.valuenetwork.live/docs/v2/",
       "extra_attributes": {
         "version": ["v2"]
       }
     },
     {
-      "url": "https://valuenetworklive2021.github.io/valueswap-protocol/docs/v1/",
+      "url": "https://valueswap.valuenetwork.live/docs/v1/",
       "extra_attributes": {
         "version": ["v1"]
       }
     },
 
     {
-      "url": "https://valuenetworklive2021.github.io/valueswap-protocol/docs/v2/protocol-overview/how-valueswap-works/",
+      "url": "https://valueswap.valuenetwork.live/docs/v2/protocol-overview/how-valueswap-works/",
       "extra_attributes": {
         "version": ["v2"]
       }
     },
 
     {
-      "url": "https://valuenetworklive2021.github.io/valueswap-protocol/docs/v2/protocol-overview/ecosystem-participants/",
+      "url": "https://valueswap.valuenetwork.live/docs/v2/protocol-overview/ecosystem-participants/",
       "extra_attributes": {
         "version": ["v2"]
       }
     },
 
     {
-      "url": "https://valuenetworklive2021.github.io/valueswap-protocol/docs/v2/protocol-overview/smart-contracts/",
+      "url": "https://valueswap.valuenetwork.live/docs/v2/protocol-overview/smart-contracts/",
       "extra_attributes": {
         "version": ["v2"]
       }
     },
 
     {
-      "url": "https://valuenetworklive2021.github.io/valueswap-protocol/docs/v2/protocol-overview/glossary/",
+      "url": "https://valueswap.valuenetwork.live/docs/v2/protocol-overview/glossary/",
       "extra_attributes": {
         "version": ["v2"]
       }
     },
 
     {
-      "url": "https://valuenetworklive2021.github.io/valueswap-protocol/docs/v2/core-concepts/swaps/",
+      "url": "https://valueswap.valuenetwork.live/docs/v2/core-concepts/swaps/",
       "extra_attributes": {
         "version": ["v2"]
       }
     },
 
     {
-      "url": "https://valuenetworklive2021.github.io/valueswap-protocol/docs/v2/core-concepts/pools/",
+      "url": "https://valueswap.valuenetwork.live/docs/v2/core-concepts/pools/",
       "extra_attributes": {
         "version": ["v2"]
       }
     },
     {
-      "url": "https://valuenetworklive2021.github.io/valueswap-protocol/docs/v2/core-concepts/flash-swaps/",
+      "url": "https://valueswap.valuenetwork.live/docs/v2/core-concepts/flash-swaps/",
       "extra_attributes": {
         "version": ["v2"]
       }
     },
     {
-      "url": "https://valuenetworklive2021.github.io/valueswap-protocol/docs/v2/core-concepts/oracles/",
+      "url": "https://valueswap.valuenetwork.live/docs/v2/core-concepts/oracles/",
       "extra_attributes": {
         "version": ["v2"]
       }
     },
     {
-      "url": "https://valuenetworklive2021.github.io/valueswap-protocol/docs/v2/advanced-topics/fees/",
+      "url": "https://valueswap.valuenetwork.live/docs/v2/advanced-topics/fees/",
       "extra_attributes": {
         "version": ["v2"]
       }
     },
     {
-      "url": "https://valuenetworklive2021.github.io/valueswap-protocol/docs/v2/advanced-topics/pricing/",
+      "url": "https://valueswap.valuenetwork.live/docs/v2/advanced-topics/pricing/",
       "extra_attributes": {
         "version": ["v2"]
       }
     },
     {
-      "url": "https://valuenetworklive2021.github.io/valueswap-protocol/docs/v2/advanced-topics/understanding-returns/",
+      "url": "https://valueswap.valuenetwork.live/docs/v2/advanced-topics/understanding-returns/",
       "extra_attributes": {
         "version": ["v2"]
       }
     },
     {
-      "url": "https://valuenetworklive2021.github.io/valueswap-protocol/docs/v2/advanced-topics/security/",
+      "url": "https://valueswap.valuenetwork.live/docs/v2/advanced-topics/security/",
       "extra_attributes": {
         "version": ["v2"]
       }
     },
     {
-      "url": "https://valuenetworklive2021.github.io/valueswap-protocol/docs/v2/advanced-topics/math/",
+      "url": "https://valueswap.valuenetwork.live/docs/v2/advanced-topics/math/",
       "extra_attributes": {
         "version": ["v2"]
       }
     },
     {
-      "url": "https://valuenetworklive2021.github.io/valueswap-protocol/docs/v2/core-concepts/flash-swaps/",
+      "url": "https://valueswap.valuenetwork.live/docs/v2/core-concepts/flash-swaps/",
       "extra_attributes": {
         "version": ["v2"]
       }
     },
     {
-      "url": "https://valuenetworklive2021.github.io/valueswap-protocol/docs/v2/advanced-topics/research/",
+      "url": "https://valueswap.valuenetwork.live/docs/v2/advanced-topics/research/",
       "extra_attributes": {
         "version": ["v2"]
       }
     },
     {
-      "url": "https://valuenetworklive2021.github.io/valueswap-protocol/docs/v2/API/entities/",
+      "url": "https://valueswap.valuenetwork.live/docs/v2/API/entities/",
       "extra_attributes": {
         "version": ["v2"]
       }
     },
     {
-      "url": "https://valuenetworklive2021.github.io/valueswap-protocol/docs/v2/API/queries/",
+      "url": "https://valueswap.valuenetwork.live/docs/v2/API/queries/",
       "extra_attributes": {
         "version": ["v2"]
       }

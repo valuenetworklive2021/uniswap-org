@@ -21,7 +21,7 @@ The initial launch includes:
 *   A community forum at [community.tokenlists.org](https://community.tokenlists.org/)
 *   Lists from [CoinMarketCap](https://coinmarketcap.com/), [Coingecko](https://www.coingecko.com/en), [Dharma](https://www.dharma.io/), [Zerion](https://zerion.io/), [Kleros TCR](https://kleros.io/), [Defiprime](https://defiprime.com/), [Compound](https://compound.finance/), [Aave](https://aave.com/), [Synthetix](https://synthetix.exchange/#/), [UMA](https://umaproject.org/), [1inch](https://1inch.exchange/#/), and [Roll](https://tryroll.com/) (and many more coming soon!)
 
-Token Lists can be used **right now** in the [Valueswap Interface](https://valuenetworklive2021.github.io/valueswap-interface/#/swap), removing the need for a default list.
+Token Lists can be used **right now** in the [Valueswap Interface](https://app.valueswap.valuenetwork.live/#/swap), removing the need for a default list.
 
 <iframe width="100%" height="315" src="https://www.youtube.com/embed/pAQyBRB8Y74" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 

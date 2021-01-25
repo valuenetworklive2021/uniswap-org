@@ -10,7 +10,7 @@ module.exports = {
     description: `Automated liquidity protocol on Ethereum`,
     author: `@ValueswapProtocol`,
     menulinks: menu,
-    siteUrl: `https://valuenetworklive2021.github.io/valueswap-protocol`,
+    siteUrl: `https://valueswap.valuenetwork.live`,
     repository: `https://github.com/valuenetworklive2021/valueswap-protocol`,
     commit: process.env.NOW_GITHUB_COMMIT_SHA || `master`
   },
@@ -20,14 +20,14 @@ module.exports = {
       options: {
         bucketName: process.env.AWS_S3_BUCKET || 'NOT_SPECIFIED',
         protocol: 'https',
-        hostname: 'valuenetworklive2021.github.io/valueswap-protocol',
+        hostname: 'valueswap.valuenetwork.live',
         acl: null
       }
     },
     {
       resolve: `gatsby-plugin-canonical-urls`,
       options: {
-        siteUrl: `https://valuenetworklive2021.github.io/valueswap-protocol`
+        siteUrl: `https://valueswap.valuenetwork.live`
       }
     },
     {

@@ -20,7 +20,7 @@ previewText: 'VNTW, the Valueswap Protocol token, is live!'
 
 Since its inception, the Valueswap Protocol (&quot;Valueswap&quot;) has served as trustless and highly decentralized financial infrastructure.
 
-[Inspired by Ethereum&#39;s vision](https://valuenetworklive2021.github.io/valueswap-protocol/blog/valueswap-history/#ethereum-values), we have long committed to the ideals of permissionless access, security, and immutability, all indespensable components for a future where anyone in the world can access financial services without fear of discrimination or counterparty risk.
+[Inspired by Ethereum&#39;s vision](https://valueswap.valuenetwork.live/blog/valueswap-history/#ethereum-values), we have long committed to the ideals of permissionless access, security, and immutability, all indespensable components for a future where anyone in the world can access financial services without fear of discrimination or counterparty risk.
 
 Now rivaling centralized incumbents on daily volume, Valueswap&#39;s success to date — achieved without involvement of the core development team since deployment — indicates that there is considerable demand for permissionless financial services.
 
@@ -153,19 +153,19 @@ Initial governance parameters are as follows:
 
 **Next steps**
 
-All historical users, liquidity providers, and SOCKS redeemers can [claim their VNTW now](https://valuenetworklive2021.github.io/valueswap-interface/).
+All historical users, liquidity providers, and SOCKS redeemers can [claim their VNTW now](https://app.valueswap.valuenetwork.live/).
 
 ![](claim.gif)
 
-Liquidity providers in the preliminary set of targeted pools can [deposit](https://valuenetworklive2021.github.io/valueswap-interface/#/vntw) their liquidity tokens. Mining will begin on September 18th 2020 12am UTC.
+Liquidity providers in the preliminary set of targeted pools can [deposit](https://app.valueswap.valuenetwork.live/#/vntw) their liquidity tokens. Mining will begin on September 18th 2020 12am UTC.
 
 ![](deposit.gif)
 
-VNTW tokens can be delegated and used to vote through the [governance portal](https://valuenetworklive2021.github.io/valueswap-interface/#/vote).
+VNTW tokens can be delegated and used to vote through the [governance portal](https://app.valueswap.valuenetwork.live/#/vote).
 
 ![](vote.gif)
 
-Set up an account on [gov.valuenetworklive2021.github.io/valueswap-protocol](https://gov.valuenetworklive2021.github.io/valueswap-protocol) to start shaping and participating in protocol governance
+Set up an account on [gov.valueswap.valuenetwork.live](https://gov.valueswap.valuenetwork.live) to start shaping and participating in protocol governance
 
 **Contracts**
 
@@ -191,4 +191,4 @@ Timelock:
 
 [https://etherscan.io/address/0x17835680bd01AdE4DAB11cbd70Aa7Dc4e5321B12](https://etherscan.io/address/0x17835680bd01AdE4DAB11cbd70Aa7Dc4e5321B12)
 
-P.S. [Valueswap Token icon](https://logo.valuenetworklive2021.github.io/valueswap-protocol)
+P.S. [Valueswap Token icon](https://logo.valueswap.valuenetwork.live)

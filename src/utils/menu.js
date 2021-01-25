@@ -4,12 +4,12 @@ const menu = [
     sublinks: [
       {
         name: 'App',
-        link: 'https://valuenetworklive2021.github.io/valueswap-interface/#/',
+        link: 'https://app.valueswap.valuenetwork.live/#/',
         description: 'Swap tokens and supply liquidity'
       },
       {
         name: 'Analytics',
-        link: 'https://valuenetworklive2021.github.io/valueswap-info/',
+        link: 'https://info.valueswap.valuenetwork.live/',
         description: 'Valueswap analytics and historical data'
       },
       {
@@ -49,8 +49,8 @@ const menu = [
         name: 'VNTW Token',
         link: '/blog/vntw'
       },
-      { name: 'Forum', link: 'https://gov.valuenetworklive2021.github.io/valueswap-protocol/' },
-      { name: 'Voting Portal', link: 'https://valuenetworklive2021.github.io/valueswap-interface/#/vote' },
+      { name: 'Forum', link: 'https://gov.valueswap.valuenetwork.live/' },
+      { name: 'Voting Portal', link: 'https://app.valueswap.valuenetwork.live/#/vote' },
       { name: 'Documentation', link: '/docs/v2/governance/overview' }
     ]
   },

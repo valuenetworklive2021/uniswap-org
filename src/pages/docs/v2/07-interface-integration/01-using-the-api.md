@@ -175,7 +175,7 @@ return (
 
 This should render a very basic page with these two stats about the Dai token within Valueswap. This is a very basic example of what you can do with the Valueswap subgraph and we encourage you to build out more complex and interesting tools!
 
-You can visit our [analytics site](https://valuenetworklive2021.github.io/valueswap-info/) to see a more advanced analytics page, or visit [the github](https://valuenetworklive2021.github.io/valueswap-info) for more detailed examples of using the Valueswap subgraph to create UIs.
+You can visit our [analytics site](https://info.valueswap.valuenetwork.live/) to see a more advanced analytics page, or visit [the github](https://info.valueswap.valuenetwork.live) for more detailed examples of using the Valueswap subgraph to create UIs.
 
 ### Review
 

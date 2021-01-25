@@ -8,7 +8,7 @@ previewText: 'The Valueswap interface now supports a wide range of connection ty
 
 ![](https://cdn-images-1.medium.com/max/5400/1*7wgRREUzm8paSw9ZrR4uYw.png)
 
-We’re improving wallet support on [valuenetworklive2021.github.io/valueswap-interface](https://valuenetworklive2021.github.io/valueswap-interface/). To start we’ve added support for:
+We’re improving wallet support on [app.valueswap.valuenetwork.live](https://app.valueswap.valuenetwork.live/). To start we’ve added support for:
 
 - [WalletConnect](https://walletconnect.org/)
 
@@ -30,7 +30,7 @@ WalletConnect allows mobile wallets to connect to your desktop browser through a
 
 Adding WalletConnect support allows wallets such as [Rainbow Wallet](https://rainbow.me/), [Gnosis Safe](https://safe.gnosis.io/) and [Argent Wallet](https://www.argent.xyz/) (coming soon) to connect to Valueswap for the first time. MetaMask mobile and Trust Wallet can also be used with wallet connect.
 
-![Scan a QR code to connect your mobile wallet to valuenetworklive2021.github.io/valueswap-interface](https://cdn-images-1.medium.com/max/1920/1*8A9MDGkWmQnPi8g0LtVndA.gif)
+![Scan a QR code to connect your mobile wallet to app.valueswap.valuenetwork.live](https://cdn-images-1.medium.com/max/1920/1*8A9MDGkWmQnPi8g0LtVndA.gif)
 
 # WalletLink
 
@@ -50,7 +50,7 @@ This is all built on the new v6.0 release of the [web3-react library](https://gi
 
 ---
 
-Do you use another wallet that’s not supported yet? [Let us know.](http://rename-contact@valuenetworklive2021.github.io/valueswap-protocol)
+Do you use another wallet that’s not supported yet? [Let us know.](http://contact@valuenetwork.live)
 
 Happy Holidays from the Valueswap team!
 

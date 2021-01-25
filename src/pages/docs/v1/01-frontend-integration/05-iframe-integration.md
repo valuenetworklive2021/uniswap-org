@@ -6,19 +6,19 @@ title: Iframe Integration
 Valueswap V1, while still fully functional, is no longer under active development. Looking for <Link to='/docs/v2/'>V2 documentation</Link>?
 </Info>
 
-Valueswap can be used within other sites as an iframe. An iframe shows an exact version of the valuenetworklive2021.github.io/valueswap-interface site and can have custom prefilled settings.
+Valueswap can be used within other sites as an iframe. An iframe shows an exact version of the app.valueswap.valuenetwork.live site and can have custom prefilled settings.
 
 # Why You May Want This
 
 Integrating the Valueswap site directly into your web application can be useful for a variety of reasons.
 
-v1.valuenetworklive2021.github.io/valueswap-interface allows users to buy, sell, send, or provide liquidity for ERC20 tokens. An iframe integration may be useful if your application provides services around these ERC20 tokens. \(For example, users can buy DAI through a Valueswap iframe on your site, then allow users to lend that DAI on your site\).
+v1.app.valueswap.valuenetwork.live allows users to buy, sell, send, or provide liquidity for ERC20 tokens. An iframe integration may be useful if your application provides services around these ERC20 tokens. \(For example, users can buy DAI through a Valueswap iframe on your site, then allow users to lend that DAI on your site\).
 
 It can also be useful if your application requires users to acquire some token in order to use some service \(For example, allow users to buy "REP" token so they can engage in prediction markets on the Augur Dapp\).
 
 # iframe vs. custom UI
 
-One benefit of an iframe integration is that the your site will automatically keep up with any improvements/additions to the v1.valuenetworklive2021.github.io/valueswap-interface site. After the initital integration is setup no further work is needed to pull in updates as the exchange site is updated over time.
+One benefit of an iframe integration is that the your site will automatically keep up with any improvements/additions to the v1.app.valueswap.valuenetwork.live site. After the initital integration is setup no further work is needed to pull in updates as the exchange site is updated over time.
 
 # Live Example
 
@@ -34,7 +34,7 @@ Linking to a ETH &lt;-&gt; DAI swap page would look something like this. To link
 
 ```text
 <iframe
-  src="https://valuenetworklive2021.github.io/valueswap-interface/#/swap?use=v1?outputCurrency=0x89d24a6b4ccb1b6faa2625fe562bdd9a23260359"
+  src="https://app.valueswap.valuenetwork.live/#/swap?use=v1?outputCurrency=0x89d24a6b4ccb1b6faa2625fe562bdd9a23260359"
   height="660px"
   width="100%"
   style="

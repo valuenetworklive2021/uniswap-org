@@ -157,7 +157,7 @@ const IndexPage = props => {
         <StyledTitle>
           <StyledBodyTitle>Automated Liquidity Protocol.</StyledBodyTitle>
           <span>
-            <Button href="https://valuenetworklive2021.github.io/valueswap-interface/">Launch App</Button>
+            <Button href="https://app.valueswap.valuenetwork.live/">Launch App</Button>
             <Button to="/docs" as={Link} outlined>
               Read the docs
             </Button>
@@ -325,13 +325,13 @@ const ProductsSection = props => {
       </StyledSectionFlex>
       <StyledSectionFlex wrapSmall={false} style={{ paddingTop: '2rem' }}>
         <MiniCard
-          href="https://valuenetworklive2021.github.io/valueswap-interface"
+          href="https://app.valueswap.valuenetwork.live"
           title={'Valueswap Interface'}
           image={props.data.swap.childImageSharp.fluid}
           desc={'Trade tokens, add liquidity and create new pools.'}
         />
         <MiniCard
-          href="https://valuenetworklive2021.github.io/valueswap-info"
+          href="https://info.valueswap.valuenetwork.live"
           title={'Valueswap Info'}
           image={props.data.info.childImageSharp.fluid}
           desc={'In depth Valueswap protocol market data.'}

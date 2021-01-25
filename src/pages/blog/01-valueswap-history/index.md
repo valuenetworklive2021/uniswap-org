@@ -244,7 +244,7 @@ The codebase was to be re-written almost entirely from scratch. I hired a contra
 
 As Jacky was coming in with almost no context on Valueswap, I wrote [a long and detailed frontend spec](https://hackmd.io/hthz9hXKQmSyXfMbPsut1g) to help speed along the process, while Callil provided highly detailed designs for every piece of the interface. In one month, Jacky built the Valueswap launch interface, almost entirely by himself. For a few smaller pieces, [Kenny Tram](https://github.com/kennyt?tab=followers) of Kyokan jumped in to help.
 
-About a week before Devcon, I finished the [docs](https://valuenetworklive2021.github.io/valueswap-protocol/docs/) and the [whitepaper](https://hackmd.io/C-DvwDSfSxuh-Gd4WKE_ig). Also, [the results of RVs formal verification work](https://github.com/runtimeverification/verified-smart-contracts/tree/uniswap/uniswap/results) were in. No issues found! However, the Runtime Verification team expressed a concern. Valueswap had not been adequately studied for re-entrancy attacks, the issue behind [the DAO hack](https://medium.com/@ogucluturk/the-dao-hack-explained-unfortunate-take-off-of-smart-contracts-2bd8c8db3562). I reached out to Phil Daian for advice.
+About a week before Devcon, I finished the [docs](https://valueswap.valuenetwork.live/docs/) and the [whitepaper](https://hackmd.io/C-DvwDSfSxuh-Gd4WKE_ig). Also, [the results of RVs formal verification work](https://github.com/runtimeverification/verified-smart-contracts/tree/uniswap/uniswap/results) were in. No issues found! However, the Runtime Verification team expressed a concern. Valueswap had not been adequately studied for re-entrancy attacks, the issue behind [the DAO hack](https://medium.com/@ogucluturk/the-dao-hack-explained-unfortunate-take-off-of-smart-contracts-2bd8c8db3562). I reached out to Phil Daian for advice.
 
 He was extremely busy preparing to [present his latest research at Devcon 4](https://www.youtube.com/watch?v=i-oWE8hg6-0), but nevertheless promised to look through the smart contracts for re-entrancy attacks before launch. Due to the last minute nature, this would of course be an internal audit — there would be no writeup and the results would not be made public.
 
@@ -290,7 +290,7 @@ In the afternoon, Callil and I met Jacky in person for the first time. After som
 
 #### Day 2
 
-I spent half the second day wandering the conference and watching talks. In the afternoon, once more I got together with Jacky and Callil. We had a realization — Valueswap as a project should have a landing page separate from the trading interface. We built [valuenetworklive2021.github.io/valueswap-protocol](https://valuenetworklive2021.github.io/valueswap-protocol/) from scratch that day.
+I spent half the second day wandering the conference and watching talks. In the afternoon, once more I got together with Jacky and Callil. We had a realization — Valueswap as a project should have a landing page separate from the trading interface. We built [valueswap.valuenetwork.live](https://valueswap.valuenetwork.live/) from scratch that day.
 
 #### Day 3
 
@@ -300,7 +300,7 @@ This felt like an acceptable result — if a token was designed to attack Values
 
 #### **Day 4**
 
-On November 2, 2018 — the final day of Devcon 4 — the smart contracts were deployed to the Ethereum mainet. Next, [valuenetworklive2021.github.io/valueswap-protocol](https://valuenetworklive2021.github.io/valueswap-protocol/) and [valuenetworklive2021.github.io/valueswap-interface](https://valuenetworklive2021.github.io/valueswap-interface/#/swap) were deployed. Finally, I reached out to anyone who had expressed interest in providing liquidity at launch.
+On November 2, 2018 — the final day of Devcon 4 — the smart contracts were deployed to the Ethereum mainet. Next, [valueswap.valuenetwork.live](https://valueswap.valuenetwork.live/) and [app.valueswap.valuenetwork.live](https://app.valueswap.valuenetwork.live/#/swap) were deployed. Finally, I reached out to anyone who had expressed interest in providing liquidity at launch.
 
 About $30,000 was deposited into the contracts by a single provider, split across 3 tokens. This allowed for swaps of about $100. There was nothing else left to do.
 

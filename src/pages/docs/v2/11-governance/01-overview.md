@@ -9,7 +9,7 @@ tags: smart-contracts, documentation
 
 # Documentation
 
-For reference material on the Valueswap Governance system please see [Governance Reference](https://valuenetworklive2021.github.io/valueswap-protocol/docs/v2/governance/governance-reference).
+For reference material on the Valueswap Governance system please see [Governance Reference](https://valueswap.valuenetwork.live/docs/v2/governance/governance-reference).
 
 # VNTW Address
 

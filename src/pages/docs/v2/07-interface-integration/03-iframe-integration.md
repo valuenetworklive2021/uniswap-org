@@ -19,7 +19,7 @@ One benefit of an iframe integration is that the your site will automatically ke
 
 # Live Example
 
-<iframe src="https://valuenetworklive2021.github.io/valueswap-interface/#/swap?exactField=input&exactAmount=10&inputCurrency=0x6b175474e89094c44da98b954eedeac495271d0f"  height="660px"   width="100%"
+<iframe src="https://app.valueswap.valuenetwork.live/#/swap?exactField=input&exactAmount=10&inputCurrency=0x6b175474e89094c44da98b954eedeac495271d0f"  height="660px"   width="100%"
   style="
     border: 0;
     margin: 0 auto;
@@ -42,7 +42,7 @@ Linking to a ETH &lt;-&gt; DAI swap page would look something like this. To link
 
 ```text
 <iframe
-  src="https://valuenetworklive2021.github.io/valueswap-interface/#/swap?outputCurrency=0x89d24a6b4ccb1b6faa2625fe562bdd9a23260359"
+  src="https://app.valueswap.valuenetwork.live/#/swap?outputCurrency=0x89d24a6b4ccb1b6faa2625fe562bdd9a23260359"
   height="660px"
   width="100%"
   style="

@@ -57,7 +57,7 @@ You can use these either of these new variables to compute an average price betw
 
 The cost of manipulating the price for a specific time period can be roughly estimated as the amount lost to arbitrage and fees every block for the entire period. For larger liquidity pools and over longer time periods, this attack is impractical, as the cost of manipulation typically exceeds the value at stake.
 
-Other factors such as network congestion can reduce the cost of attack. For a more in-depth review of the security of Valueswap V2 price oracles, read the [security audit section on Oracle Integrity](https://valuenetworklive2021.github.io/valueswap-protocol/audit.html#org87c8b91).
+Other factors such as network congestion can reduce the cost of attack. For a more in-depth review of the security of Valueswap V2 price oracles, read the [security audit section on Oracle Integrity](https://valueswap.valuenetwork.live/audit.html#org87c8b91).
 
 ## Using Valueswap V2 price oracles
 

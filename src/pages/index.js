@@ -203,7 +203,7 @@ const IndexPage = props => {
             Valueswap is a decentralized protocol for automated liquidity provision on Ethereum.
           </StyledBodyTitle>
           <StyledNav>
-            <StyledExternalLink href={'https://valuenetworklive2021.github.io/valueswap-interface'}>
+            <StyledExternalLink href={'https://app.valueswap.valuenetwork.live'}>
               Use the app <span style={{ fontSize: '11px' }}>↗</span>
             </StyledExternalLink>
             <StyledLink to={'/docs/v2/'}>Read the docs</StyledLink>

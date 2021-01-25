@@ -64,7 +64,7 @@ There are many community built tools like [https://www.uniswaproi.com/](https://
 
 # I updated my token via a proxy contract, but the Valueswap information page is showing the old symbol / name!
 
-[valuenetworklive2021.github.io/valueswap-info](https://valuenetworklive2021.github.io/valueswap-info/) reads the details of new tokens when they're added to the subgraph. There may be some circumstances where an old symbol or name isn't updated if the token was updated with a proxy contract. A guide to fix this yourself is forthcoming, in the meantime, reach out with the details on our developer discord.
+[info.valueswap.valuenetwork.live](https://info.valueswap.valuenetwork.live/) reads the details of new tokens when they're added to the subgraph. There may be some circumstances where an old symbol or name isn't updated if the token was updated with a proxy contract. A guide to fix this yourself is forthcoming, in the meantime, reach out with the details on our developer discord.
 
 # Valueswap tools and resources
 

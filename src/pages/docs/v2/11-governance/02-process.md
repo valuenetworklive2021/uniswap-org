@@ -9,15 +9,15 @@ This document is a living document which represents the current process guidelin
 
 Several governance venues are available to Valueswap governance, each serving its own particular purpose.
 
-1. [_gov.valuenetworklive2021.github.io/valueswap-protocol_](https://gov.valuenetworklive2021.github.io/valueswap-protocol/)
+1. [_gov.valueswap.valuenetwork.live_](https://gov.valueswap.valuenetwork.live/)
 
-gov.valuenetworklive2021.github.io/valueswap-protocol is a Discourse-hosted forum for governance-related discussion. Community members must register for an account before sharing or liking posts. New members are required to enter 4 topics and read 15 posts over the course of 10 minutes before they are permitted to post themselves.
+gov.valueswap.valuenetwork.live is a Discourse-hosted forum for governance-related discussion. Community members must register for an account before sharing or liking posts. New members are required to enter 4 topics and read 15 posts over the course of 10 minutes before they are permitted to post themselves.
 
 2. [_Snapshot_](https://snapshot.page/#/valueswap)
 
 Snapshot is a simple voting interface that allows users to signal sentiment off-chain. Votes on snapshot are weighted by the number of VNTW delegated to the address used to vote.
 
-3. [_Governance Portal_](https://valuenetworklive2021.github.io/valueswap-interface/#/vote)
+3. [_Governance Portal_](https://app.valueswap.valuenetwork.live/#/vote)
 
 The formal governance portal can be accessed directly through the Valueswap app interface. Votes are delegated and cast through the portal.
 
@@ -29,7 +29,7 @@ The purpose of the Temperature Check is to determine if there is sufficient will
 
 To create a Temperature Check:
 
-1. Ask a general, non-biased question to the community on gov.valuenetworklive2021.github.io/valueswap-protocol about a potential change (example: &quot;Should Valueswap governance add liquidity mining for XYZ token?&quot;). Forum posts should be labeled as follows: &quot;Temperature Check - [Your Title Here]&quot;. The forum post should include a link to the associated Snapshot poll.
+1. Ask a general, non-biased question to the community on gov.valueswap.valuenetwork.live about a potential change (example: &quot;Should Valueswap governance add liquidity mining for XYZ token?&quot;). Forum posts should be labeled as follows: &quot;Temperature Check - [Your Title Here]&quot;. The forum post should include a link to the associated Snapshot poll.
 
 1. Voters use Snapshot to indicate their interest in bringing it forward to the next stage. Snapshot poll lengths should be set to 2 days.
 
@@ -45,7 +45,7 @@ To create a Consensus Check:
 
 1. Use feedback from the Temperature Check post and create a new Snapshot poll which covers the options which have gained support. This poll can either be binary or multiple choice but you are required to include the option &quot;Make no change&quot; or its equivalent. Set the poll duration to 5 days.
 
-1. Create a new topic in the Proposal Discussion category on gov.valuenetworklive2021.github.io/valueswap-protocol titled &quot;Consensus Check — [Your Title Here]&quot;. This will alert the community that this topic has already passed Temperature Check. Any topics beginning with Consensus Check that have not passed Temperature Check will immediately be removed by moderators. Make sure that the discussion thread links to the new Snapshot poll and the Temperature Check thread.
+1. Create a new topic in the Proposal Discussion category on gov.valueswap.valuenetwork.live titled &quot;Consensus Check — [Your Title Here]&quot;. This will alert the community that this topic has already passed Temperature Check. Any topics beginning with Consensus Check that have not passed Temperature Check will immediately be removed by moderators. Make sure that the discussion thread links to the new Snapshot poll and the Temperature Check thread.
 
 1. Reach out to your network to build support for the proposal. Discuss the proposal and actively solicit delegates to vote on it. Be willing to respond to questions on the Consensus Check topic. Share your view point, although try to remain as impartial as possible.
 
@@ -63,11 +63,11 @@ To create a Governance Proposal:
 
 1. Ensure that you have at least 10 million VNTW delegated to your address in order to submit a proposal, or find someone who has enough VNTW to meet the proposal threshold to propose on your behalf.
 
-1. Create a topic in the Proposal Discussion category on gov.valuenetworklive2021.github.io/valueswap-protocol titled &quot;Governance Proposal — [Your Title Here]&quot; and link to any relevant Snapshot polls/discussion threads as well as the code audit report. Topics that begin with &quot;Governance Proposal&quot; that have not successfully passed through the Temperature Check and Consensus Check stages will be removed by moderators.
+1. Create a topic in the Proposal Discussion category on gov.valueswap.valuenetwork.live titled &quot;Governance Proposal — [Your Title Here]&quot; and link to any relevant Snapshot polls/discussion threads as well as the code audit report. Topics that begin with &quot;Governance Proposal&quot; that have not successfully passed through the Temperature Check and Consensus Check stages will be removed by moderators.
 
 1. Call the propose() function of the Governor Alpha to deploy your proposal.
 
-Once the propose() function has been called, a seven day voting period will start. Ongoing discussion can take place in the gov.valuenetworklive2021.github.io/valueswap-protocol forum. If the proposal passes successfully, a two day timelock will follow before the proposed code is executed.
+Once the propose() function has been called, a seven day voting period will start. Ongoing discussion can take place in the gov.valueswap.valuenetwork.live forum. If the proposal passes successfully, a two day timelock will follow before the proposed code is executed.
 
 ## Soft governance
 

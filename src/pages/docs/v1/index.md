@@ -31,11 +31,11 @@ This site will serve as a project overview for Valueswap - explaining how it wor
 
 # Resources
 
-- [Website](https://valuenetworklive2021.github.io/valueswap-protocol)
+- [Website](https://valueswap.valuenetwork.live)
 - [GitHub](https://github.com/valuenetworklive2021)
 - [Twitter](https://twitter.com/ValueswapProtocol)
 - [Reddit](https://www.reddit.com/r/Valueswap)
-- [Email](mailto:rename-contact@valuenetworklive2021.github.io/valueswap-protocol)
+- [Email](mailto:contact@valuenetwork.live)
 - [Whitepaper](https://hackmd.io/s/HJ9jLsfTz)
 
 # How it works
@@ -58,7 +58,7 @@ Upgrading censorship resistant, decentralized smart contracts is difficult. If s
 
 # How to use it
 
-[valuenetworklive2021.github.io/valueswap-protocol](https://valuenetworklive2021.github.io/valueswap-protocol) is the landing page for the Valueswap protocol. It describes the project and directs users where they need to go.
+[valueswap.valuenetwork.live](https://valueswap.valuenetwork.live) is the landing page for the Valueswap protocol. It describes the project and directs users where they need to go.
 
 The Valueswap smart contracts live on Ethereum. Anyone can interact with them directly.
 
