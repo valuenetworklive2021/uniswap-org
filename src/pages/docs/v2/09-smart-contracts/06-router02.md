@@ -11,7 +11,7 @@ Because routers are stateless and do not hold token balances, they can be replac
 
 # Address
 
-`ValueswapV2Router02` is deployed at `0x83029F77b898e590220D8F10E73F3c4BF07865FE` on the Ethereum [mainnet](https://etherscan.io/address/0x83029F77b898e590220D8F10E73F3c4BF07865FE), and the [Ropsten](https://ropsten.etherscan.io/address/0x83029F77b898e590220D8F10E73F3c4BF07865FE), [Rinkeby](https://rinkeby.etherscan.io/address/0x83029F77b898e590220D8F10E73F3c4BF07865FE), [Görli](https://goerli.etherscan.io/address/0x83029F77b898e590220D8F10E73F3c4BF07865FE), and [Kovan](https://kovan.etherscan.io/address/0x83029F77b898e590220D8F10E73F3c4BF07865FE) testnets. It was built from commit [6961711](https://github.com/valuenetworklive2021/valueswap-v2-periphery/tree/69617118cda519dab608898d62aaa79877a61004).
+`ValueswapV2Router02` is deployed at `0x56BFDDd003D406cf8270F7E8BecA81C66aa38881` on the Ethereum [mainnet](https://etherscan.io/address/0x56BFDDd003D406cf8270F7E8BecA81C66aa38881), and the [Ropsten](https://ropsten.etherscan.io/address/0x56BFDDd003D406cf8270F7E8BecA81C66aa38881), [Rinkeby](https://rinkeby.etherscan.io/address/0x56BFDDd003D406cf8270F7E8BecA81C66aa38881), [Görli](https://goerli.etherscan.io/address/0x56BFDDd003D406cf8270F7E8BecA81C66aa38881), and [Kovan](https://kovan.etherscan.io/address/0x56BFDDd003D406cf8270F7E8BecA81C66aa38881) testnets. It was built from commit [6961711](https://github.com/valuenetworklive2021/valueswap-v2-periphery/tree/69617118cda519dab608898d62aaa79877a61004).
 
 # Read-Only Functions
 

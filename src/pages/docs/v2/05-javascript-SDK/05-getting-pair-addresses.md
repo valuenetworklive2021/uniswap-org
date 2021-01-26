@@ -17,7 +17,7 @@ Thanks to some [fancy footwork in the factory](https://github.com/valuenetworkli
 | :--------------------- | :------------------------------------------------------------------------------ |
 | `address`              | The <Link to='/docs/v2/smart-contracts/factory/#address'>factory address</Link> |
 | `salt`                 | `keccak256(abi.encodePacked(token0, token1))`                                   |
-| `keccak256(init_code)` | `0x582192e0e8b232be2f0b8be16eb19ed4d4947868baffd369ec116019ee2b8d37`            |
+| `keccak256(init_code)` | `0xf27fee3fc000c2148077e3c1de2bfc88ca0e8881a5c9fbb18615dc16f0cc1b75`            |
 
 - `token0` must be strictly less than `token1` by sort order.
 

@@ -6,7 +6,7 @@ featuredImage: ./featured.png
 previewText: 'Valueswap V2 the second iteration of the Valueswap protocol has been deployed to the Ethereum mainnet!'
 ---
 
-Valueswap V2, the second iteration of the Valueswap protocol, has been [deployed to the Ethereum mainnet](https://etherscan.io/address/0xAD7172De38cCFb3ecEaAD0a3f1700bA4E0aEfeB0#code)!
+Valueswap V2, the second iteration of the Valueswap protocol, has been [deployed to the Ethereum mainnet](https://etherscan.io/address/0x1f2b12Ef34ca629341F2F77440F0a55a115C86cB#code)!
 
 An [audit report and formal verification](https://valueswap.valuenetwork.live/audit.html) has already been released and the [Valueswap V2 Bug Bounty](https://twitter.com/ValueswapProtocol/status/1250474233131495424) has been running for over a month.
 
