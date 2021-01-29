@@ -17,7 +17,7 @@ Thanks to some [fancy footwork in the factory](https://github.com/valuenetworkli
 | :--------------------- | :------------------------------------------------------------------------------ |
 | `address`              | The <Link to='/docs/v2/smart-contracts/factory/#address'>factory address</Link> |
 | `salt`                 | `keccak256(abi.encodePacked(token0, token1))`                                   |
-| `keccak256(init_code)` | `0xf27fee3fc000c2148077e3c1de2bfc88ca0e8881a5c9fbb18615dc16f0cc1b75`            |
+| `keccak256(init_code)` | `0xbd180ae29cf24eb2aeb0c652457a18bf292f7aaa4661545fb91e6eefcffe1a24`            |
 
 - `token0` must be strictly less than `token1` by sort order.
 
@@ -29,7 +29,7 @@ Thanks to some [fancy footwork in the factory](https://github.com/valuenetworkli
 ### Solidity
 
 ```solidity
-address factory = 0x1f2b12Ef34ca629341F2F77440F0a55a115C86cB;
+address factory = 0xF8CC7061b9286b16dF5909BF7969b50209A551E1;
 address token0 = 0xCAFE000000000000000000000000000000000000; // change me!
 address token1 = 0xF00D000000000000000000000000000000000000; // change me!
 
@@ -37,6 +37,6 @@ address pair = address(uint(keccak256(abi.encodePacked(
   hex'ff',
   factory,
   keccak256(abi.encodePacked(token0, token1)),
-  hex'f27fee3fc000c2148077e3c1de2bfc88ca0e8881a5c9fbb18615dc16f0cc1b75'
+  hex'bd180ae29cf24eb2aeb0c652457a18bf292f7aaa4661545fb91e6eefcffe1a24'
 ))));
 ```

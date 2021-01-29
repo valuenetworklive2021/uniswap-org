@@ -9,7 +9,7 @@ tags: smart-contracts, documentation
 
 # Address
 
-`ValueswapV2Factory` is deployed at `0x1f2b12Ef34ca629341F2F77440F0a55a115C86cB` on the Ethereum [mainnet](https://etherscan.io/address/0x1f2b12Ef34ca629341F2F77440F0a55a115C86cB), and the [Ropsten](https://ropsten.etherscan.io/address/0x1f2b12Ef34ca629341F2F77440F0a55a115C86cB), [Rinkeby](https://rinkeby.etherscan.io/address/0x1f2b12Ef34ca629341F2F77440F0a55a115C86cB), [Görli](https://goerli.etherscan.io/address/0x1f2b12Ef34ca629341F2F77440F0a55a115C86cB), and [Kovan](https://kovan.etherscan.io/address/0x1f2b12Ef34ca629341F2F77440F0a55a115C86cB) testnets. It was built from commit [8160750](https://github.com/valuenetworklive2021/valueswap-v2-core).
+`ValueswapV2Factory` is deployed at `0xF8CC7061b9286b16dF5909BF7969b50209A551E1` on the Ethereum [mainnet](https://etherscan.io/address/0xF8CC7061b9286b16dF5909BF7969b50209A551E1), and the [Ropsten](https://ropsten.etherscan.io/address/0xF8CC7061b9286b16dF5909BF7969b50209A551E1), [Rinkeby](https://rinkeby.etherscan.io/address/0xF8CC7061b9286b16dF5909BF7969b50209A551E1), [Görli](https://goerli.etherscan.io/address/0xF8CC7061b9286b16dF5909BF7969b50209A551E1), and [Kovan](https://kovan.etherscan.io/address/0xF8CC7061b9286b16dF5909BF7969b50209A551E1) testnets. It was built from commit [8160750](https://github.com/valuenetworklive2021/valueswap-v2-core).
 
 # Events
 

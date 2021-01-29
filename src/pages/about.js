@@ -130,7 +130,7 @@ export const ETH_PRICE = block => {
 
 const APOLLO_QUERY = gql`
   {
-    valueswapFactory(id: "0x1f2b12Ef34ca629341F2F77440F0a55a115C86cB") {
+    valueswapFactory(id: "0xF8CC7061b9286b16dF5909BF7969b50209A551E1") {
       totalVolumeUSD
       totalLiquidityUSD
       pairCount
@@ -144,7 +144,7 @@ const APOLLO_QUERY = gql`
 export const VALUESWAP_GLOBALS_24HOURS_AGO_QUERY = block => {
   let queryString = `
   query valueswapFactory {
-    valueswapFactory(id: "0x1f2b12Ef34ca629341F2F77440F0a55a115C86cB", block: { number: ${block} }) {
+    valueswapFactory(id: "0xF8CC7061b9286b16dF5909BF7969b50209A551E1", block: { number: ${block} }) {
       totalVolumeUSD
       totalLiquidityUSD
       pairCount

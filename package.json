@@ -3,7 +3,11 @@
   "private": true,
   "version": "1.0.0",
   "description": "Valueswap homepage and knowledgebase",
-  "author": "Value Network",
+  "author": {
+    "name": "Value Network",
+    "email": "support@valuenetwork.live",
+    "url": "https://valuenetwork.live"
+  },
   "license": "GPL-3.0-or-later",
   "repository": {
     "type": "git",

@@ -3641,10 +3641,10 @@
   dependencies:
     wonka "^4.0.10"
 
-"@valueswap/token-lists@^1.0.0":
-  version "1.0.0"
-  resolved "https://registry.yarnpkg.com/@valueswap/token-lists/-/token-lists-1.0.0.tgz#36e65c6f7ffa9851495f289b902cfe92ff316d54"
-  integrity sha512-K6sMHDnQbnE1Dej2YcW63FAvB0Nkt5ly9JlaX9GU3QwYfq3PcVii6DTTMaZiQa9ffeD/BsEqDx+RaefzPj0bNQ==
+"@valueswap/token-lists@^1.0.1":
+  version "1.0.1"
+  resolved "https://registry.yarnpkg.com/@valueswap/token-lists/-/token-lists-1.0.1.tgz#60f7a6ee8c6d646f4c26da7b6209d6bcff211295"
+  integrity sha512-uypoTnsXAJbq/zp9VZNdgJkf2BVaHHR9yG1+Qnt2KbmiRYdcvHm+ioJ2ayDPJ04Vbxq1fYxpHLQFz7YQ+17rxw==
 
 "@webassemblyjs/ast@1.9.0":
   version "1.9.0"
