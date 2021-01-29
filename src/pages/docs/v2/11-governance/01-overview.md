@@ -13,7 +13,7 @@ For reference material on the Valueswap Governance system please see [Governance
 
 # VNTW Address
 
-`VNTW` is deployed at `0xd0f05D3D4e4d1243Ac826d8c6171180c58eaa9BC` on the Ethereum [mainnet](https://etherscan.io/address/0xd0f05D3D4e4d1243Ac826d8c6171180c58eaa9BC), and the [Ropsten](https://ropsten.etherscan.io/address/0xd0f05D3D4e4d1243Ac826d8c6171180c58eaa9BC), [Rinkeby](https://rinkeby.etherscan.io/address/0xd0f05D3D4e4d1243Ac826d8c6171180c58eaa9BC), [Görli](https://goerli.etherscan.io/address/0xd0f05D3D4e4d1243Ac826d8c6171180c58eaa9BC), and [Kovan](https://kovan.etherscan.io/address/0xd0f05D3D4e4d1243Ac826d8c6171180c58eaa9BC) testnets. It was built from commit [ab22c08](https://github.com/valuenetworklive2021/valueswap-governance/commit/0xd0f05D3D4e4d1243Ac826d8c6171180c58eaa9BC).
+`VNTW` is deployed at `0xFa29FfdeB7666133C97768Fb438f268bd3dD0f50` on the Ethereum [mainnet](https://etherscan.io/address/0xFa29FfdeB7666133C97768Fb438f268bd3dD0f50), and the [Ropsten](https://ropsten.etherscan.io/address/0xFa29FfdeB7666133C97768Fb438f268bd3dD0f50), [Rinkeby](https://rinkeby.etherscan.io/address/0xFa29FfdeB7666133C97768Fb438f268bd3dD0f50), [Görli](https://goerli.etherscan.io/address/0xFa29FfdeB7666133C97768Fb438f268bd3dD0f50), and [Kovan](https://kovan.etherscan.io/address/0xFa29FfdeB7666133C97768Fb438f268bd3dD0f50) testnets. It was built from commit [ab22c08](https://github.com/valuenetworklive2021/valueswap-governance/commit/0xFa29FfdeB7666133C97768Fb438f268bd3dD0f50).
 
 ## ABI
 

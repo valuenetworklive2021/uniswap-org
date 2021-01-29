@@ -10,7 +10,7 @@ previewText: 'VNTW, the Valueswap Protocol token, is live!'
 
 - VNTW, the Valueswap Protocol token, is live!
 
-- VNTW contract address: [0xd0f05D3D4e4d1243Ac826d8c6171180c58eaa9BC](https://etherscan.io/token/0xd0f05D3D4e4d1243Ac826d8c6171180c58eaa9BC)
+- VNTW contract address: [0xFa29FfdeB7666133C97768Fb438f268bd3dD0f50](https://etherscan.io/token/0xFa29FfdeB7666133C97768Fb438f268bd3dD0f50)
 
 - 60% of the VNTW genesis supply is allocated to Valueswap community members, a quarter of which (15% of total supply) has already been distributed to past users
 
@@ -171,7 +171,7 @@ Set up an account on [gov.valueswap.valuenetwork.live](https://gov.valueswap.val
 
 VNTW Token:
 
-[https://etherscan.io/token/0xd0f05D3D4e4d1243Ac826d8c6171180c58eaa9BC](https://etherscan.io/token/0xd0f05D3D4e4d1243Ac826d8c6171180c58eaa9BC)
+[https://etherscan.io/token/0xFa29FfdeB7666133C97768Fb438f268bd3dD0f50](https://etherscan.io/token/0xFa29FfdeB7666133C97768Fb438f268bd3dD0f50)
 
 Liquidity mining:
 
